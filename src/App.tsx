@@ -1,39 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import './index.css'
+import './App.css';
+import './index.css';
+import Header from './composants/Accueil/Header/Header';
+import Bloc1 from './composants/Accueil/Bloc1';
+import Footer from './composants/Accueil/Footer';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div className='flex flex-row justify-center items-center mb-10'>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="relative min-h-screen">
+      {/* ------------------------------------------- Conteneur de l'image avec voile noir ------------------------------------------- */}
+      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/Accueil/fond-ecran-accueil.webp)' }}>
+        <div className="absolute inset-0 bg-black/50"></div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-        <p className='text-red-300 text-2xl mt-7'>
-          This is the template created by MaxDev
-        </p>
+
+      {/* ------------------------------------------- Contenu au premier plan ------------------------------------------- */}
+      <div className="relative z-10">
+        <Header />
+        <Bloc1 />
+        <Footer />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
