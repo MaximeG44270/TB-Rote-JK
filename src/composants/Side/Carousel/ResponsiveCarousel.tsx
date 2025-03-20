@@ -2,9 +2,9 @@ import React from 'react';
 
 const ResponsiveCarousel: React.FC = () => {
   const slides = [
-    { src: '/Accueil/side/dark.png', text: 'Côté Obscur' },
-    { src: '/Accueil/side/mixte.png', text: 'Mixte' },
-    { src: '/Accueil/side/light.png', text: 'Côté Lumineux' },
+    { src: '/Accueil/side/dark.webp', text: 'Côté Obscur' },
+    { src: '/Accueil/side/mixte.webp', text: 'Mixte' },
+    { src: '/Accueil/side/light.webp', text: 'Côté Lumineux' },
   ];
 
   return (

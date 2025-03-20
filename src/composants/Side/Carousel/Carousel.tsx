@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const Carousel: React.FC = () => {
   const images = [
-    '/Accueil/side/dark.png',
-    '/Accueil/side/mixte.png',
-    '/Accueil/side/light.png',
+    '/Accueil/side/dark.webp',
+    '/Accueil/side/mixte.webp',
+    '/Accueil/side/light.webp',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
