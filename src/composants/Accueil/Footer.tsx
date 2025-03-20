@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="text-white mt-20 lg:mt-52 xl:mt-5 xl:text-xl 2xl:text-2xl 2xl:mt-28 font-poppins sm:text-3xl text-center p-4">
+    <footer className="text-white mt-20 lg:mt-52 xl:mt-5 xl:text-xl 2xl:text-2xl 2xl:mt-10 font-poppins sm:text-3xl text-center p-4">
       <a 
         href="mailto:mgdigital.dev@gmail.com" 
         className=""
