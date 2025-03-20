@@ -22,7 +22,7 @@ const Carousel: React.FC = () => {
         {/* ------------------------------------------- Texte ------------------------------------------- */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 flex flex-col items-center z-20">
-        <h1 className="text-4xl font-bold font-poppins text-white mt-8 mb-4 md:mt-12 md:text-6xl md:mb-8">Choix du côté</h1>
+        <h1 className="text-4xl font-bold font-poppins text-white mt-32 mb-4 md:text-6xl md:mb-8">Choix du côté</h1>
         <p className="text-lg font-poppins text-white md:text-2xl">
           Côté obscur, Mixte ou côté Lumineux
         </p>
