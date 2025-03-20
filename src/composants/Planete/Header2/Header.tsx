@@ -10,7 +10,7 @@ const Header: React.FC = () => {
         <Link to="/" className="text-white rounded-xl border-white border-2 py-2 px-4 mr-10 md:text-xl lg:text-4xl md:mr-16 lg:mr-28">
           Accueil
         </Link>
-        <div className='items-start'>
+        <div className='flex'>
             <NavBar />
         </div>
       </div>
