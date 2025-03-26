@@ -52,9 +52,9 @@ const NavBar: React.FC = () => {
           ].map(({ name, link }) => (
             <span key={name} className="text-lg md:text-2xl font-poppins font-bold cursor-pointer">
               <Link
-                to={link} // Utilisation du Link pour la navigation vers une nouvelle page
+                to={link}
                 onClick={() => {
-                  setIsMenuOpen(false); // Ferme le menu une fois le lien cliqué
+                  setIsMenuOpen(false);
                 }}
               >
                 {name}
@@ -71,9 +71,9 @@ const NavBar: React.FC = () => {
           onClick={toggleMenu}
         >
           <div className="flex flex-col space-y-2 lg:space-y-3">
-            <div className="w-10 h-1 rounded-sm md:h-2 md:w-12 md:rounded-md lg:h-3 lg:w-20 lg:rounded-md bg-white transition-all duration-300"></div>
-            <div className="w-10 h-1 rounded-sm md:h-2 md:w-12 md:rounded-md lg:h-3 lg:w-20 lg:rounded-md bg-white transition-all duration-300 ml-auto"></div>
-            <div className="w-10 h-1 rounded-sm md:h-2 md:w-12 md:rounded-md lg:h-3 lg:w-20 lg:rounded-md bg-white transition-all duration-300"></div>
+            <div className="w-10 h-1 rounded-sm md:h-2 md:w-12 md:rounded-md lg:h-3 xl:h-2 xl:w-16 lg:w-20 lg:rounded-md bg-white transition-all duration-300"></div>
+            <div className="w-10 h-1 rounded-sm md:h-2 md:w-12 md:rounded-md lg:h-3 xl:h-2 xl:w-16 lg:w-20 lg:rounded-md bg-white transition-all duration-300 ml-auto"></div>
+            <div className="w-10 h-1 rounded-sm md:h-2 md:w-12 md:rounded-md lg:h-3 xl:h-2 xl:w-16 lg:w-20 lg:rounded-md bg-white transition-all duration-300"></div>
           </div>
         </div>
       )}

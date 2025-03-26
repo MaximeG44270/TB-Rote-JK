@@ -31,3 +31,18 @@ body {
 }
 
 /* ------------------------------------------- FIN CROIX BURGER ------------------------------------------- */
+
+/* ------------------------------------------- DÉBUT SCROLL BARRE ------------------------------------------- */
+.custom-scrollbar {
+    scrollbar-width: none;
+    /* Pour Firefox */
+    -ms-overflow-style: none;
+    /* Pour Internet Explorer et Edge */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    display: none;
+    /* Pour Chrome, Safari et Opera */
+}
+
+/* ------------------------------------------- FIN SCROLL BARRE ------------------------------------------- */
