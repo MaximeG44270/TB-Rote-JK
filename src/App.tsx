@@ -4,6 +4,13 @@ import Side from './composants/Side/Side';
 import Dark from './composants/Planete/Dark/Dark';
 import Light from './composants/Planete/Light/Light';
 import Mixte from './composants/Planete/Mixte/Mixte';
+import Coruscant from './composants/Planete/Light/DataLight/Coruscant';
+import Bracca from './composants/Planete/Light/DataLight/Bracca';
+import Kashyyyk from './composants/Planete/Light/DataLight/Kashyyyk';
+import Lothal from './composants/Planete/Light/DataLight/Lothal';
+import RingOfKafrene from './composants/Planete/Light/DataLight/RingOfKafrene';
+import Scarif from './composants/Planete/Light/DataLight/Scarif';
+import Zeffo from './composants/Planete/Light/DataLight/Zeffo';
 
 function App() {
   return (
@@ -14,6 +21,13 @@ function App() {
         <Route path="/dark" element={<Dark />} />
         <Route path="/light" element={<Light />} />
         <Route path="/mixte" element={<Mixte />} />
+        <Route path="/planet/1-coruscant" element={<Coruscant />} />
+        <Route path="/planet/2-bracca" element={<Bracca />} />
+        <Route path="/planet/3-kashyyyk" element={<Kashyyyk />} />
+        <Route path="/planet/4-lothal" element={<Lothal />} />
+        <Route path="/planet/5-ring-of-kafrene" element={<RingOfKafrene />} />
+        <Route path="/planet/6-scarif" element={<Scarif />} />
+        <Route path="/planet/bonus-zeffo" element={<Zeffo />} />
       </Routes>
     </div>
   );
