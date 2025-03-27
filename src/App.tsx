@@ -4,7 +4,7 @@ import Side from './composants/Side/Side';
 import Dark from './composants/Planete/Dark/Dark';
 import Light from './composants/Planete/Light/Light';
 import Mixte from './composants/Planete/Mixte/Mixte';
-import Coruscant from './composants/Planete/Light/DataLight/Coruscant';
+import Coruscant from './composants/Planete/Light/DataLight/Coruscant/Coruscant';
 import Bracca from './composants/Planete/Light/DataLight/Bracca';
 import Kashyyyk from './composants/Planete/Light/DataLight/Kashyyyk';
 import Lothal from './composants/Planete/Light/DataLight/Lothal';
