@@ -8,17 +8,17 @@ const starRequirements = [
 
 const StarRequire: React.FC = () => {
   return (
-    <div className="flex justify-center mt-8">
+    <div className="flex justify-center mt-8 ">
       <table className="border border-gray-600 text-white font-poppins text-center w-full max-w-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-gray-800">
-            <th className="p-3 border border-gray-600 first:rounded-tl-lg last:rounded-tr-lg">Stars</th>
-            <th className="p-3 border border-gray-600 first:rounded-tl-lg last:rounded-tr-lg">MPG</th>
+            <th className="p-3 border border-gray-600">Stars</th>
+            <th className="p-3 border border-gray-600">MPG</th>
           </tr>
         </thead>
         <tbody>
           {starRequirements.map((item, index) => (
-            <tr key={index} className="bg-gray-700 last:rounded-b-lg">
+            <tr key={index} className="bg-gray-700">
               <td className="p-3 border border-gray-600">{item.stars}</td>
               <td className="p-3 border border-gray-600">{item.mpg}</td>
             </tr>

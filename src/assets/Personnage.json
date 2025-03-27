@@ -1,0 +1,8 @@
+[
+  { "src": "/public/Personnage/ahsoka_tano.png", "alt": "Ahsoka-tano-chipie" },
+  { "src": "/public/Personnage/general_kenobi.png", "alt": "GK" },
+  { "src": "/public/Personnage/gl_kenobi.png", "alt": "JMK" },
+  { "src": "/public/Personnage/ki-adi-mundi.png", "alt": "KAM" },
+  { "src": "/public/Personnage/kit_fisto.png", "alt": "Kit-Fisto" },
+  { "src": "/public/Personnage/mace_windu.png", "alt": "Mace-windu" }
+]
