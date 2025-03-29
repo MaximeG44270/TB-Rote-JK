@@ -13,7 +13,7 @@ const DefenseCoruscantEstVague2: React.FC = () => {
           key={index}
           src={image!.src}
           alt={image!.alt}
-          className={`w-16 h-16 object-contain rounded-full border-2 ${
+          className={`w-16 h-16 md:w-24 md:h-24 object-contain rounded-full border-2 md:border-4 ${
             ["Royal-guard", "Darth-sidious"].includes(image!.alt) ? "border-red-400" : "border-blue-400"
           }`}
         />

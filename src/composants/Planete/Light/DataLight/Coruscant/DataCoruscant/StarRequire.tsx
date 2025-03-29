@@ -8,23 +8,25 @@ const starRequirements = [
 
 const StarRequire: React.FC = () => {
   return (
-    <div className="flex justify-center mt-8 ">
-      <table className="border border-gray-600 text-white font-poppins text-center w-full max-w-md rounded-lg overflow-hidden">
-        <thead>
-          <tr className="bg-gray-800">
-            <th className="p-3 border border-gray-600">Stars</th>
-            <th className="p-3 border border-gray-600">MPG</th>
-          </tr>
-        </thead>
-        <tbody>
-          {starRequirements.map((item, index) => (
-            <tr key={index} className="bg-gray-700">
-              <td className="p-3 border border-gray-600">{item.stars}</td>
-              <td className="p-3 border border-gray-600">{item.mpg}</td>
+    <div className="flex justify-center mt-8 px-4">
+      <div className="w-full max-w-xl overflow-x-auto">
+        <table className="border border-gray-600 text-white font-poppins text-center w-full rounded-lg overflow-hidden md:text-xl">
+          <thead>
+            <tr className="bg-gray-800">
+              <th className="p-3 border border-gray-600">Stars</th>
+              <th className="p-3 border border-gray-600">MPG</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {starRequirements.map((item, index) => (
+              <tr key={index} className="bg-gray-700 odd:bg-gray-600">
+                <td className="p-3 border border-gray-600 whitespace-nowrap">{item.stars}</td>
+                <td className="p-3 border border-gray-600 whitespace-nowrap">{item.mpg}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };
