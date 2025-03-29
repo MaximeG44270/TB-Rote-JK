@@ -1,7 +1,7 @@
 import React from "react";
 import personnages from "../../../../../../../../assets/Personnage.json";
 
-const DefenseVague1: React.FC = () => {
+const DefenseCoruscantEstVague1: React.FC = () => {
   const order = ["Clone-Chef", "Royal-guard", "Royal-guard", "Clone-elite", "Clone-medic"];
 
   const selectedImages = order.map((alt) => personnages.find((p) => p.alt === alt)).filter(Boolean);
@@ -22,4 +22,4 @@ const DefenseVague1: React.FC = () => {
   );
 };
 
-export default DefenseVague1;
+export default DefenseCoruscantEstVague1;

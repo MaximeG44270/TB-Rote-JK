@@ -10,5 +10,16 @@
   { "src": "/Personnage/troopercloneyellow.png", "alt": "Clone-Chef" },
   { "src": "/Personnage/darth_sidious.png", "alt": "Darth-sidious" },
   { "src": "/Personnage/jedi_knight_anakin.png", "alt": "Anakin" },
+  { "src": "/Personnage/gl_luke.png", "alt": "JML" },
+  { "src": "/Personnage/shaak_ti.png", "alt": "Shaak-ti" },
+  { "src": "/Personnage/obi-wan_kenobi_(old_ben).png", "alt": "Vieux-Ben" },
+  { "src": "/Personnage/jedi_knight_luke_skywalker.png", "alt": "JKL" },
+  { "src": "/Personnage/jedi_knight_revan.png", "alt": "JKR" },
+  { "src": "/Personnage/grand_master_yoda.png", "alt": "GMY" },
+  { "src": "/Personnage/yodahermit.png", "alt": "YodaHermit" },
+  { "src": "/Personnage/jolee_bindo.png", "alt": "Jolee" },
+  { "src": "/Personnage/clone_arc.png", "alt": "Clone-arc" },
+  { "src": "/Personnage/trooperclone.png", "alt": "Trooper-clone" },
+  { "src": "/Personnage/gl_vader.png", "alt": "LV" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu" }
 ]
