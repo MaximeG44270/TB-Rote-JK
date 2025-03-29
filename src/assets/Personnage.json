@@ -4,5 +4,11 @@
   { "src": "/Personnage/gl_kenobi.png", "alt": "JMK" },
   { "src": "/Personnage/ki-adi-mundi.png", "alt": "KAM" },
   { "src": "/Personnage/kit_fisto.png", "alt": "Kit-Fisto" },
+  { "src": "/Personnage/royal_guard.png", "alt": "Royal-guard" },
+  { "src": "/Personnage/trooperclone_medic.png", "alt": "Clone-medic" },
+  { "src": "/Personnage/trooperclone_sharpshooter.png", "alt": "Clone-elite" },
+  { "src": "/Personnage/troopercloneyellow.png", "alt": "Clone-Chef" },
+  { "src": "/Personnage/darth_sidious.png", "alt": "Darth-sidious" },
+  { "src": "/Personnage/jedi_knight_anakin.png", "alt": "Anakin" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu" }
 ]

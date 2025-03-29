@@ -1,10 +1,8 @@
 import React from 'react';
+import personnages from '../../../../../../../../assets/Personnage.json';
 
-// Importe les données JSON
-import personnages from '../../../../../../../assets/Personnage.json';
-
-const AttackCoruscantEstTeam2: React.FC = () => {
-  const order = ['Mace-windu', 'JMK', 'Ahsoka-tano-chipie', 'KAM', 'Kit-Fisto'];
+const AttackCoruscantEstTeam1: React.FC = () => {
+  const order = ['Mace-windu', 'JMK', 'GK', 'KAM', 'Kit-Fisto'];
 
   const selectedImages = personnages.filter((personnage) => 
     order.includes(personnage.alt)
@@ -29,4 +27,4 @@ const AttackCoruscantEstTeam2: React.FC = () => {
   );
 };
 
-export default AttackCoruscantEstTeam2;
+export default AttackCoruscantEstTeam1;

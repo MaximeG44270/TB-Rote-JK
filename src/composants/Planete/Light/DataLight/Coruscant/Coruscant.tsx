@@ -3,6 +3,7 @@ import Header from '../../../Header2/Header';
 import MissionImages from './MissionImages';
 import StarRequire from './DataCoruscant/StarRequire';
 import AttackCoruscantEst from './DataCoruscant/AttackEst';
+import AttackCoruscantNord from './DataCoruscant/AttackNord';
 
 const Coruscant: React.FC = () => {
   return (
@@ -25,6 +26,7 @@ const Coruscant: React.FC = () => {
         </div>
         <div className='p-4 mb-8'>
           <AttackCoruscantEst />
+          <AttackCoruscantNord />
         </div>
       </div>
     </div>
