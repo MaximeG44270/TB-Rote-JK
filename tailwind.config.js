@@ -13,6 +13,10 @@ module.exports = {
         '3xl': '1920px',
         '4xl': '2560px',
       },
+      borderWidth: {
+        6: '6px',
+        3: '3px',
+      },
     },
   },
   plugins: [],

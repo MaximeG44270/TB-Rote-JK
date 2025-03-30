@@ -40,7 +40,7 @@ const Coruscant: React.FC = () => {
         <div className="p-4">
           <StarRequire />
         </div>
-        <div className="p-4 md:p-8 mb-8">
+        <div className="p-4 md:p-8 lg:p-12 mb-8">
           <AttackCoruscantEst />
           <AttackCoruscantNord />
         </div>
@@ -49,10 +49,10 @@ const Coruscant: React.FC = () => {
         {showScrollButton && (
           <button 
             onClick={scrollToTop} 
-            className="fixed bottom-6 right-6 border-2 text-white p-3 md:p-4 rounded-full shadow-lg hover:bg-white hover:text-black transition md:bottom-8 md:right-8 md:text-xl"
+            className="fixed bottom-6 right-6 border-2 md:border-4 xl:border-3 text-white p-3 md:p-4 lg:p-5 rounded-full shadow-lg hover:bg-white hover:text-black transition md:bottom-8 md:right-8 md:text-xl"
             aria-label="Remonter en haut"
           >
-            <ArrowUp className="w-6 h-6 md:w-8 md:h-8" />
+            <ArrowUp className="w-6 h-6 md:w-8 md:h-8 lg:h-11 lg:w-11 xl:w-7 xl:h-7" />
           </button>
         )}
       </div>
