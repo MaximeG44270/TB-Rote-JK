@@ -14,7 +14,7 @@ const AttackCoruscantNord: React.FC = () => {
         <div className='bg-gray-600 h-2 mt-6'></div>
         <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-4xl font-bold mt-10'>Prérequis</p>
         <p className='text-lg md:text-xl lg:text-3xl xl:text-xl 2xl:text-2xl lg:mt-4 text-slate-300 italic mt-2 text-center leading-relaxed'>5x Jedis (Relic 5+)</p>
-        <div className='xl:flex w-full xl:gap-32 xl:p-12'>
+        <div className='xl:flex w-full xl:gap-20 xl:p-12'>
           <div className='flex flex-col flex-1'>
             <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-4xl font-bold mt-8 lg:mt-14 lg:mb-8'>Coup de coeur de la communauté</p>
             <AttackCoruscantNordTeam1 />

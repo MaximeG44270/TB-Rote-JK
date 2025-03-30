@@ -8,12 +8,12 @@ import YouTubeEmbed from '../../../../YouTubeEmbed';
 const AttackCoruscantEst: React.FC = () => {
   return (
     <div className="flex justify-center mt-4 md:mt-8 lg:mt-12">
-      <div className='p-4 md:p-10 border border-gray-600 bg-gray-700 text-white font-poppins text-center w-full rounded-lg md:rounded-2xl lg:rounded-3xl h-auto xl:flex xl:flex-col'>
+      <div className='p-4 md:p-10 xl:p-5 border border-gray-600 bg-gray-700 text-white font-poppins text-center w-full rounded-lg md:rounded-2xl lg:rounded-3xl h-auto xl:flex xl:flex-col'>
         <p id="attack-est" className='text-4xl md:text-5xl lg:text-6xl font-bold mt-4 self-center'>Bataille EST</p>
         <div className='bg-gray-600 h-2 mt-6'></div>
         <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-10'>Prérequis</p>
         <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-2 leading-relaxed text-center'>5x Jedis (Relic 5+), Mace Windu et Kit Fisto</p>
-        <div className='xl:flex w-full xl:gap-32 xl:p-12'>
+        <div className='xl:flex w-full xl:gap-20 xl:p-12'>
           <div className='flex flex-col flex-1'>
             <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 xl:mt-10 lg:mb-8'>Coup de coeur de la communauté</p>
             <AttackCoruscantEstTeam1 />
