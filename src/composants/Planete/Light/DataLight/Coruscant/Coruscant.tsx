@@ -5,6 +5,9 @@ import MissionImages from './MissionImages';
 import StarRequire from './DataCoruscant/StarRequire';
 import AttackCoruscantEst from './DataCoruscant/AttackEst';
 import AttackCoruscantNord from './DataCoruscant/AttackNord';
+import AttackCoruscantMiddle from './DataCoruscant/AttackMiddle';
+import AttackCoruscantOuest from './DataCoruscant/AttackOuest';
+import AttackCoruscantFleet from './DataCoruscant/AttackCoruscantFleet';
 
 const Coruscant: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -43,6 +46,9 @@ const Coruscant: React.FC = () => {
         <div className="p-4 md:p-8 lg:p-12 mb-8">
           <AttackCoruscantEst />
           <AttackCoruscantNord />
+          <AttackCoruscantMiddle />
+          <AttackCoruscantOuest />
+          <AttackCoruscantFleet />
         </div>
 
         {/* ------------------------------------------- Bouton Scroll to Top ------------------------------------------- */}
