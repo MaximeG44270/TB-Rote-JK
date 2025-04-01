@@ -8,6 +8,7 @@ import AttackCoruscantNord from './DataCoruscant/AttackNord';
 import AttackCoruscantMiddle from './DataCoruscant/AttackMiddle';
 import AttackCoruscantOuest from './DataCoruscant/AttackOuest';
 import AttackCoruscantFleet from './DataCoruscant/AttackCoruscantFleet';
+import CoruscantPlatoon from './DataCoruscant/CoruscantPlatoon';
 
 const Coruscant: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -49,6 +50,7 @@ const Coruscant: React.FC = () => {
           <AttackCoruscantMiddle />
           <AttackCoruscantOuest />
           <AttackCoruscantFleet />
+          <CoruscantPlatoon />
         </div>
 
         {/* ------------------------------------------- Bouton Scroll to Top ------------------------------------------- */}

@@ -2,7 +2,7 @@ import React from "react";
 import personnages from "../../../../../../../../assets/Personnage.json";
 
 const DefenseCoruscantFleetTeam1: React.FC = () => {
-  const order = ["Clone-Chef", "Clone-arc", "Trooper-clone", "Clone-elite", "Clone-medic"];
+  const order = ["Endurance", "BTL", "BTL", "Rex-170", "Clone-170", "Rex-170", "Clone-170"];
 
   const selectedImages = order.map((alt) => personnages.find((p) => p.alt === alt)).filter(Boolean);
 
@@ -23,6 +23,3 @@ const DefenseCoruscantFleetTeam1: React.FC = () => {
 };
 
 export default DefenseCoruscantFleetTeam1;
-
-
-// Finir les image et savoir exactement le nombre de fleet !!!!!
