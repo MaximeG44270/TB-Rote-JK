@@ -11,8 +11,7 @@ const Bloc1: React.FC = () => {
   return (
     <div className="mt-28 flex sm:mt-40 flex-col justify-center items-center text-center p-6 xl:mt-4">
       {/* ------------------------------------------- Texte ------------------------------------------- */}
-      <p className="text-4xl sm:text-7xl font-poppins font-bold text-white xl:text-5xl 2xl:text-7xl">MG Digital</p>
-      <p className="text-4xl mt-4 font-poppins font-bold sm:text-7xl text-white xl:text-5xl 2xl:text-7xl">x</p>
+      <p className="text-4xl sm:text-7xl font-poppins font-bold text-white xl:text-5xl 2xl:text-7xl 2xl:mt-20 2xl:mb-20">MG Digital</p>
       <p className="text-4xl mt-4 font-poppins font-bold sm:text-7xl text-white xl:text-5xl 2xl:text-7xl">Communté Héros français | JEDI KYBER</p>
 
       {/* ------------------------------------------- Bouton Entrée & Liens ------------------------------------------- */}
