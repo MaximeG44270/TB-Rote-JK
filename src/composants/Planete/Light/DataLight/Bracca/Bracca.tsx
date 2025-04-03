@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
-import AttackCoruscantEst from './DataCoruscant/AttackEst';
-import AttackCoruscantNord from './DataCoruscant/AttackNord';
-import AttackCoruscantMiddle from './DataCoruscant/AttackMiddle';
-import AttackCoruscantOuest from './DataCoruscant/AttackOuest';
-import AttackCoruscantFleet from './DataCoruscant/AttackCoruscantFleet';
-import CoruscantPlatoon from './DataCoruscant/CoruscantPlatoon';
-import MissionImagesCoruscant from './MissionImagesCoruscant';
-import StarRequireCoruscant from './DataCoruscant/StarRequire';
+import MissionImagesBracca from './MissionImageCoruscant';
+import StarRequireBracca from './DataBracca/StarRequireBracca';
+import AttackCoruscantEst from '../Coruscant/DataCoruscant/AttackEst';
+import AttackCoruscantNord from '../Coruscant/DataCoruscant/AttackNord';
+import AttackCoruscantMiddle from '../Coruscant/DataCoruscant/AttackMiddle';
+import AttackCoruscantOuest from '../Coruscant/DataCoruscant/AttackOuest';
+import AttackCoruscantFleet from '../Coruscant/DataCoruscant/AttackCoruscantFleet';
+import CoruscantPlatoon from '../Coruscant/DataCoruscant/CoruscantPlatoon';
 
-const Coruscant: React.FC = () => {
+const Bracca: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
 
   useEffect(() => {
@@ -32,17 +32,17 @@ const Coruscant: React.FC = () => {
       <div className="relative flex flex-col bg-gray-900 max-w-full overflow-hidden text-white">
         {/* ------------------------------------------- Image principale ------------------------------------------- */}
         <img 
-          src="/Planet-main-mobile/Light/1-Coruscant.webp" 
+          src="/Planet-main-mobile/Light/2-Bracca.webp" 
           alt="Coruscant" 
           className="w-full xl:w-1/2 rounded-lg mt-8 mx-auto"
         />
 
         {/* ------------------------------------------- Images superposées ------------------------------------------- */}
-        <MissionImagesCoruscant />
+        <MissionImagesBracca />
 
-        <p id="star-require" className="text-center text-7xl mt-8 font-bold font-poppins">Coruscant</p>
+        <p id="star-require" className="text-center text-7xl mt-8 font-bold font-poppins">Bracca</p>
         <div className="p-4">
-          <StarRequireCoruscant />
+          <StarRequireBracca />
         </div>
         <div className="p-4 md:p-8 lg:p-12 mb-8">
           <AttackCoruscantEst />
@@ -68,4 +68,4 @@ const Coruscant: React.FC = () => {
   );
 };
 
-export default Coruscant;
+export default Bracca;

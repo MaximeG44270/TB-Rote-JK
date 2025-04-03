@@ -1,12 +1,12 @@
 import React from 'react';
 
 const starRequirements = [
-  { stars: "1 Star", mpg: "116 406 250 MPG" },
-  { stars: "2 Stars", mpg: "186 250 000 MPG" },
-  { stars: "3 Stars", mpg: "248 333 333 MPG" },
+  { stars: "1 Star", mpg: "142 265 625 MPG" },
+  { stars: "2 Stars", mpg: "227 625 000 MPG" },
+  { stars: "3 Stars", mpg: "303 500 000 MPG" },
 ];
 
-const StarRequireCoruscant: React.FC = () => {
+const StarRequireBracca: React.FC = () => {
   return (
     <div className="flex justify-center mt-8 px-4">
       <div className="w-full max-w-xl lg:max-w-3xl overflow-x-auto">
@@ -31,4 +31,4 @@ const StarRequireCoruscant: React.FC = () => {
   );
 };
 
-export default StarRequireCoruscant;
+export default StarRequireBracca;

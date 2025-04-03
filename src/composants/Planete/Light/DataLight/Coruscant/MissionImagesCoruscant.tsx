@@ -17,7 +17,7 @@ const missionImages: MissionImage[] = [
   { src: "/picto/mission_platoon.png", alt: "platoon", position: "absolute top-[16rem] left-[6rem] md:top-[27rem] md:left-[11rem] lg:top-[34rem] lg:left-[14rem] xl:top-[24rem] xl:left-[31rem] 2xl:left-[37rem] 2xl:top-[28rem] w-[3rem] md:w-[5rem] lg:w-[7rem] xl:w-[5rem] 3xl:w-[6rem] 3xl:left-[41rem] 3xl:top-[30rem]", anchor: "platoon" },
 ];
 
-const MissionImages: React.FC = () => {
+const MissionImagesCoruscant: React.FC = () => {
   return (
     <>
       {missionImages.map((image, index) => (
@@ -42,4 +42,4 @@ const MissionImages: React.FC = () => {
   );
 };
 
-export default MissionImages;
+export default MissionImagesCoruscant;
