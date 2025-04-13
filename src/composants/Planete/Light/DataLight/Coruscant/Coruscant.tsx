@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
-import AttackCoruscantEst from './DataCoruscant/AttackEst';
-import AttackCoruscantNord from './DataCoruscant/AttackNord';
-import AttackCoruscantMiddle from './DataCoruscant/AttackMiddle';
-import AttackCoruscantOuest from './DataCoruscant/AttackOuest';
+import AttackCoruscantEst from './DataCoruscant/AttackCoruscantEst';
+import AttackCoruscantNord from './DataCoruscant/AttackCoruscantNord';
+import AttackCoruscantMiddle from './DataCoruscant/AttackCoruscantMiddle';
+import AttackCoruscantOuest from './DataCoruscant/AttackCoruscantOuest';
 import AttackCoruscantFleet from './DataCoruscant/AttackCoruscantFleet';
 import CoruscantPlatoon from './DataCoruscant/CoruscantPlatoon';
 import MissionImagesCoruscant from './MissionImagesCoruscant';

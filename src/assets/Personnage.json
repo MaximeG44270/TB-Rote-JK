@@ -33,7 +33,7 @@
   { "src": "/Personnage/pao.png", "alt": "PAO", "name": "PAO" },
   { "src": "/Personnage/hoth_rebel_scout.png", "alt": "Eclaireur-hoth", "name": "Éclaireur rebelle de hoth" },
   { "src": "/Personnage/cara_dune.png", "alt": "Cara-dune", "name": "Cara Dune" },
-  { "src": "/Personnage/kyle_katarn_o.png", "alt": "Kyle Katarn" },
+  { "src": "/Personnage/kyle_katarn_o.png", "alt": "Kyle-katarn", "name": "Kyle Katarn" },
   { "src": "/Personnage/gl_leia.png", "alt": "GL-leia", "name": "Leia Organa" },
   { "src": "/Personnage/r2-d2.png", "alt": "R2D2", "name": "R2-D2" },
   { "src": "/Personnage/captain_drogan.png", "alt": "Drogan", "name": "Capitaine Drogan" },
@@ -86,5 +86,11 @@
   { "src": "/Personnage/rebel_officer_leia_organa.png", "alt": "Leia-rebelle", "name": "Officier rebelle Leia Organa" },
   { "src": "/Personnage/tex.charui_ravensclaw.webp", "alt": "Raven-claw", "name": "Raven's Claw" },
   { "src": "/Personnage/zaalbar.png", "alt": "Zaalbar", "name": "Zaalbar" },
+  { "src": "/Personnage/finn.png", "alt": "Finn", "name": "Finn" },
+  { "src": "/Personnage/rey_(scavenger).png", "alt": "Rey-scavenger", "name": "Rey (Pilleuse)" },
+  { "src": "/Personnage/ninth_sister.png", "alt": "neuvieme-soeur", "name": "Nouvième soeur" },
+  { "src": "/Personnage/purgetrooper.png", "alt": "Purge-trooper", "name": "Purge-trooper" },
+  { "src": "/Personnage/stormtrooper.png", "alt": "Stormtrooper", "name": "Stormtrooper" },
+  { "src": "/Personnage/trooperstormcommander.png", "alt": "Trooper-commando", "name": "Stormtrooper Commando" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" }
 ]

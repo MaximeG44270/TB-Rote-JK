@@ -3,12 +3,11 @@ import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
 import MissionImagesBracca from './MissionImageCoruscant';
 import StarRequireBracca from './DataBracca/StarRequireBracca';
-import AttackCoruscantEst from '../Coruscant/DataCoruscant/AttackEst';
-import AttackCoruscantNord from '../Coruscant/DataCoruscant/AttackNord';
-import AttackCoruscantMiddle from '../Coruscant/DataCoruscant/AttackMiddle';
-import AttackCoruscantOuest from '../Coruscant/DataCoruscant/AttackOuest';
+import AttackCoruscantOuest from '../Coruscant/DataCoruscant/AttackCoruscantOuest';
 import AttackCoruscantFleet from '../Coruscant/DataCoruscant/AttackCoruscantFleet';
 import CoruscantPlatoon from '../Coruscant/DataCoruscant/CoruscantPlatoon';
+import AttackBraccaEst from './DataBracca/AttackBraccaEst';
+import AttackBraccaMiddle from './DataBracca/AttackBraccaMiddle';
 
 const Bracca: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -45,9 +44,8 @@ const Bracca: React.FC = () => {
           <StarRequireBracca />
         </div>
         <div className="p-4 md:p-8 lg:p-12 mb-8">
-          <AttackCoruscantEst />
-          <AttackCoruscantNord />
-          <AttackCoruscantMiddle />
+          <AttackBraccaEst />
+          <AttackBraccaMiddle />
           <AttackCoruscantOuest />
           <AttackCoruscantFleet />
           <CoruscantPlatoon />

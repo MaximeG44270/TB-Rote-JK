@@ -1,8 +1,8 @@
 import React from 'react';
 import personnages from '../../../../../../../../assets/Personnage.json';
 
-const AttackCoruscantMiddleTeam3: React.FC = () => {
-  const order = ['MM', 'PAO', 'Eclaireur-hoth', 'Cara-dune', 'Kyle-katarn'];
+const AttackBraccaMiddleTeam1: React.FC = () => {
+  const order = ['JKL', 'JML', 'Shaak-ti', 'Anakin', 'GMY'];
 
   const selectedImages = personnages.filter((personnage) => 
     order.includes(personnage.alt)
@@ -27,4 +27,4 @@ const AttackCoruscantMiddleTeam3: React.FC = () => {
   );
 };
 
-export default AttackCoruscantMiddleTeam3;
+export default AttackBraccaMiddleTeam1;
