@@ -1,15 +1,16 @@
 import React from 'react';
 import personnages from '../../../../../../../../assets/Personnage.json';
 
-const TotalPlatoonCoruscant: React.FC = () => {
+const TotalPlatoonBracca: React.FC = () => {
   const orders = [
-    ['GAS', 'Mando', 'Rey-training', 'Greef', 'YodaHermit', 'JKL', 'BB-8', 'Cls', 'Cody', 'barriss', 'GAS', 'R2D2', 'JKR', 'L3-37', 'Phantom'],
-    ['GAS', 'BB-8', 'Chebacca', 'X-wing-resistance', 'YodaHermit', 'GAS', 'BB-8', 'Mando', 'Jyn', 'Sana', 'GAS', 'Mando', 'Chebacca', 'Sana', 'Home-one'],
-    ['JKL', 'Rey-training', 'GMY', '3po-Chewie', 'YodaHermit', 'JKL', 'R2D2', 'BB-8', 'umbaran', 'Fulcrum', 'JKL', 'Padme', 'C-3po', 'Sana', 'Armorer'],
-    ['JKL', 'JKR', 'GK', 'Lobot', 'HanSolo', 'GAS', 'Mando', 'Logray', 'Chasseur-plo', 'Visas', 'GAS', 'C-3po', 'HanSolo', 'ohnaka', 'Eta-2'],
-    ['JKL', 'BB-8', 'HanSolo', 'Jolee', 'Logray', 'JKL', 'Cls', 'YodaHermit', 'Teebo', 'Kuiil', 'JKL', 'Mando', 'GK', '3po-Chewie', 'Phantom'],
-    ['GAS', 'C-3po', 'KAM', 'Sabine', 'YodaHermit', 'GAS', 'GMY', 'YodaHermit', 'Holdo', 'Zaalbar', 'GAS', 'JKR', 'Leia-rebelle', 'Sana', 'Raven-claw'],
-  ];
+  ["Boushh", "Razor", "wedge", "L3-37", "Ghost", "Amiral-raddus", "CAT", "X-wing-poe", "Sergent-clone-1", "R2D2", "GL-rey", "Razor", "BTL", "Juhani", "Outrider"],
+  ["Young-solo", "Razor", "PAO", "Chebacca", "MM", "secura", "Ben", "Jedi-stellaire", "BB-8", "C-3po", "Profundity", "Razor", "CRA", "JKR", "BTL"],
+  ["Endurance", "Ben", "Echo-501", "GMY", "Ebon-hawk", "Greef", "Ben", "Kanan", "BB-8", "Rey-training", "JMK", "Ben", "Rose", "GMY", "Enfys"],
+  ["3po-Chewie", "CAT", "Razor", "Bodhi", "Five", "Greef", "Ben", "CAT", "Ghost", "R2D2", "Profundity", "Razor", "Ben", "chew-veteran", "Omega"],
+  ["U-wing-bistan", "Razor", "Ben", "Rey-training", "Ez-bridger", "Outrider", "CAT", "Razor", "Chebacca", "GMY", "JMK", "Razor", "Ben", "Faucon-han", "Kanan"],
+  ["Rex-501", "Ben", "Razor", "Cls", "Raven-claw", "Vandor-chew", "Razor", "CAT", "GMY", "C-3po", "GL-rey", "Ben", "Razor", "Padme", "Teebo"],
+];
+
 
   // Compter les occurrences des personnages dans toutes les opérations
   const personnageCount: { [key: string]: number } = {};
@@ -57,4 +58,4 @@ const TotalPlatoonCoruscant: React.FC = () => {
   );
 };
 
-export default TotalPlatoonCoruscant;
+export default TotalPlatoonBracca;

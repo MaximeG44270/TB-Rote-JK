@@ -5,9 +5,9 @@ import MissionImagesBracca from './MissionImageCoruscant';
 import StarRequireBracca from './DataBracca/StarRequireBracca';
 import AttackCoruscantOuest from '../Coruscant/DataCoruscant/AttackCoruscantOuest';
 import AttackCoruscantFleet from '../Coruscant/DataCoruscant/AttackCoruscantFleet';
-import CoruscantPlatoon from '../Coruscant/DataCoruscant/CoruscantPlatoon';
 import AttackBraccaEst from './DataBracca/AttackBraccaEst';
 import AttackBraccaMiddle from './DataBracca/AttackBraccaMiddle';
+import BraccaPlatoon from './DataBracca/BraccaPlatoon';
 
 const Bracca: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -48,7 +48,7 @@ const Bracca: React.FC = () => {
           <AttackBraccaMiddle />
           <AttackCoruscantOuest />
           <AttackCoruscantFleet />
-          <CoruscantPlatoon />
+          <BraccaPlatoon />
         </div>
 
         {/* ------------------------------------------- Bouton Scroll to Top ------------------------------------------- */}
