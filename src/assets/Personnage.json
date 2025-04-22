@@ -88,7 +88,7 @@
   { "src": "/Personnage/zaalbar.png", "alt": "Zaalbar", "name": "Zaalbar" },
   { "src": "/Personnage/finn.png", "alt": "Finn", "name": "Finn" },
   { "src": "/Personnage/rey_(scavenger).png", "alt": "Rey-scavenger", "name": "Rey (Pilleuse)" },
-  { "src": "/Personnage/ninth_sister.png", "alt": "neuvieme-soeur", "name": "Nouvième soeur" },
+  { "src": "/Personnage/ninth_sister.png", "alt": "neuvieme-soeur", "name": "Neuvième soeur" },
   { "src": "/Personnage/purgetrooper.png", "alt": "Purge-trooper", "name": "Purge-trooper" },
   { "src": "/Personnage/stormtrooper.png", "alt": "Stormtrooper", "name": "Stormtrooper" },
   { "src": "/Personnage/tex.charui_secondsister.webp", "alt": "Second-sister", "name": "Deuxième Soeur" },
@@ -121,6 +121,11 @@
   { "src": "/Personnage/bistan's_u-wing.png", "alt": "U-wing-bistan", "name": "U-Wing de bistan" },
   { "src": "/Personnage/ezra_bridger.png", "alt": "Ez-bridger", "name": "Ezra Bridger" },
   { "src": "/Personnage/ct-7567__rex_.png", "alt": "Rex-501", "name": "CT-7561 \"Rex\"" },
-  { "src": "/public/Personnage/vandor_chewbacca.png", "alt": "Vandor-chew", "name": "Chewbacca Vandor" },
+  { "src": "/Personnage/vandor_chewbacca.png", "alt": "Vandor-chew", "name": "Chewbacca Vandor" },
+  { "src": "/Personnage/cere_junda.png", "alt": "Cere", "name": "Cere Junda" },
+  { "src": "/Personnage/jedi_cal.png", "alt": "JKCK", "name": "Chevalier Jedi Cal Kestis" },
+  { "src": "/Personnage/scout_trooper.png", "alt": "scout-trooper", "name": "Scout trooper" },
+  { "src": "/Personnage/mara_jade_teh.png", "alt": "Mara", "name": "Mara Jade, la main de l'empereur" },
+  { "src": "/Personnage/tarfful.png", "alt": "Tarfful", "name": "Tarfful" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" }
 ]

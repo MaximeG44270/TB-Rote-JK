@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
-import MissionImagesBracca from './MissionImageBracca';
-import StarRequireBracca from './DataBracca/StarRequireBracca';
-import AttackCoruscantOuest from '../Coruscant/DataCoruscant/AttackCoruscantOuest';
 import AttackCoruscantFleet from '../Coruscant/DataCoruscant/AttackCoruscantFleet';
-import AttackBraccaEst from './DataBracca/AttackBraccaEst';
-import AttackBraccaMiddle from './DataBracca/AttackBraccaMiddle';
-import BraccaPlatoon from './DataBracca/BraccaPlatoon';
-import AttackBraccaSpecial from './DataBracca/AttackBraccaSpecial';
+import AttackBraccaSpecial from '../Bracca/DataBracca/AttackBraccaSpecial';
+import BraccaPlatoon from '../Bracca/DataBracca/BraccaPlatoon';
+import MissionImagesKashyyyk from './MissionImageKashyyyk';
+import StarRequireKashyyyk from './Data Kashyyyk/StarRequireKashyyyk';
+import AttackKashyyykEst from './Data Kashyyyk/AttackKashyyykEst';
+import AttackKashyyykNord from './Data Kashyyyk/AttackKashyyykNord';
+import AttackKashyyykSud from './Data Kashyyyk/AttackKashyyykSud';
 
-const Bracca: React.FC = () => {
+const Kashyyyk: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
 
   useEffect(() => {
@@ -32,22 +32,22 @@ const Bracca: React.FC = () => {
       <div className="relative flex flex-col bg-gray-900 max-w-full overflow-hidden text-white">
         {/* ------------------------------------------- Image principale ------------------------------------------- */}
         <img 
-          src="/Planet-main-mobile/Light/2-Bracca.webp" 
+          src="/Planet-main-mobile/Light/3-Kashyyyk.webp"
           alt="Coruscant" 
-          className="w-full xl:w-1/2 rounded-lg mt-8 mx-auto"
+          className="w-10/12 xl:w-1/2 rounded-lg mt-8 mx-auto"
         />
 
         {/* ------------------------------------------- Images superposées ------------------------------------------- */}
-        <MissionImagesBracca />
+        <MissionImagesKashyyyk />
 
         <p id="star-require" className="text-center text-7xl mt-8 font-bold font-poppins">Bracca</p>
         <div className="p-4">
-          <StarRequireBracca />
+          <StarRequireKashyyyk />
         </div>
         <div className="p-4 md:p-8 lg:p-12 mb-8">
-          <AttackBraccaEst />
-          <AttackBraccaMiddle />
-          <AttackCoruscantOuest />
+          <AttackKashyyykEst />
+          <AttackKashyyykNord />
+          <AttackKashyyykSud />
           <AttackCoruscantFleet />
           <AttackBraccaSpecial />
           <BraccaPlatoon />
@@ -68,4 +68,4 @@ const Bracca: React.FC = () => {
   );
 };
 
-export default Bracca;
+export default Kashyyyk;
