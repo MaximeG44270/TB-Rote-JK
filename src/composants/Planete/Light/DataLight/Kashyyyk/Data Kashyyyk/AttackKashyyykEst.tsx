@@ -63,7 +63,7 @@ const AttackKashyyykEst: React.FC = () => {
                 <YouTubeEmbed videoUrl="https://www.youtube.com/embed/XSJLv4XCUxk" />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 lg:mb-8'>Équipes alternatives (hors GL)</p>
                 <AttackKashyyykEstTeam2 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/w4zNLvN_ndI" start={727} />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/IRNnaG4W6oU" start={600} />
                 <AttackKashyyykEstTeam3 />
                 <YouTubeEmbed videoUrl="https://www.youtube.com/embed/w4zNLvN_ndI" start={293} />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 lg:mb-8'>Équipes alternatives (GL)</p>

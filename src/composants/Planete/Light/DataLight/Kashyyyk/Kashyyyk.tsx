@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
-import AttackCoruscantFleet from '../Coruscant/DataCoruscant/AttackCoruscantFleet';
-import AttackBraccaSpecial from '../Bracca/DataBracca/AttackBraccaSpecial';
 import BraccaPlatoon from '../Bracca/DataBracca/BraccaPlatoon';
 import MissionImagesKashyyyk from './MissionImageKashyyyk';
 import StarRequireKashyyyk from './Data Kashyyyk/StarRequireKashyyyk';
 import AttackKashyyykEst from './Data Kashyyyk/AttackKashyyykEst';
 import AttackKashyyykNord from './Data Kashyyyk/AttackKashyyykNord';
 import AttackKashyyykSud from './Data Kashyyyk/AttackKashyyykSud';
+import AttackKashyyykFleet from './Data Kashyyyk/AttackKashyyykFleet';
+import AttackKashyyykSpecial from './Data Kashyyyk/AttackKashyyykMission';
 
 const Kashyyyk: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -40,7 +40,7 @@ const Kashyyyk: React.FC = () => {
         {/* ------------------------------------------- Images superposées ------------------------------------------- */}
         <MissionImagesKashyyyk />
 
-        <p id="star-require" className="text-center text-7xl mt-8 font-bold font-poppins">Bracca</p>
+        <p id="star-require" className="text-center text-7xl mt-8 font-bold font-poppins">Kashyyyk</p>
         <div className="p-4">
           <StarRequireKashyyyk />
         </div>
@@ -48,8 +48,8 @@ const Kashyyyk: React.FC = () => {
           <AttackKashyyykEst />
           <AttackKashyyykNord />
           <AttackKashyyykSud />
-          <AttackCoruscantFleet />
-          <AttackBraccaSpecial />
+          <AttackKashyyykFleet />
+          <AttackKashyyykSpecial />
           <BraccaPlatoon />
         </div>
 

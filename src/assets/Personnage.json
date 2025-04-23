@@ -127,5 +127,12 @@
   { "src": "/Personnage/scout_trooper.png", "alt": "scout-trooper", "name": "Scout trooper" },
   { "src": "/Personnage/mara_jade_teh.png", "alt": "Mara", "name": "Mara Jade, la main de l'empereur" },
   { "src": "/Personnage/tarfful.png", "alt": "Tarfful", "name": "Tarfful" },
+  { "src": "/Personnage/imperialofficer.png", "alt": "Imperial-officer", "name": "Officier impérial" },
+  { "src": "/Personnage/tie_fighter_pilot.png", "alt": "tie-pilote", "name": "Pilote de chasseur TIE" },
+  { "src": "/Personnage/executrix.png", "alt": "Executrix", "name": "Executrix" },
+  { "src": "/Personnage/saw_gerrera.png", "alt": "Saw-gerrera", "name": "Saw Gerrera" },
+  { "src": "/Personnage/baze_malbus.png", "alt": "Baze-malbus", "name": "Baze Malbus" },
+  { "src": "/Personnage/cassian_andor.png", "alt": "Cassian-andor", "name": "Cassian Andor" },
+  { "src": "/Personnage/atstdriver.png", "alt": "atst-driver", "name": "Conducteur AT-ST" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" }
 ]
