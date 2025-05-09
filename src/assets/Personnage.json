@@ -134,5 +134,12 @@
   { "src": "/Personnage/baze_malbus.png", "alt": "Baze-malbus", "name": "Baze Malbus" },
   { "src": "/Personnage/cassian_andor.png", "alt": "Cassian-andor", "name": "Cassian Andor" },
   { "src": "/Personnage/atstdriver.png", "alt": "atst-driver", "name": "Conducteur AT-ST" },
+  { "src": "/Personnage/skiff_lando.png", "alt": "skiff-lando", "name": "Garde d'Esquif (Lando Calrissian)" },
+  { "src": "/Personnage/lando's_millennium_falcon.png", "alt": "faucon-lando", "name": "Faucon Millenium de Lando" },
+  { "src": "/Personnage/resistance_trooper.png", "alt": "soldat-resistance", "name": "Soldat de la Résistance" },
+  { "src": "/Personnage/k-2so.png", "alt": "K-2so", "name": "K-2SO" },
+  { "src": "/Personnage/negotiator.png", "alt": "Negociateur", "name": "Négociateur" },
+  { "src": "/Personnage/ewok_scout.png", "alt": "eclaireur-ewok", "name": "Éclaireur Ewok" },
+  { "src": "/Personnage/hoth_rebel_solider.png", "alt": "soldat-hoth", "name": "Soldat rebelle de Hoth" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" }
 ]

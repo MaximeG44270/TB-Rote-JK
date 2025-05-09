@@ -3,15 +3,15 @@ import personnages from '../../../../../../../../assets/Personnage.json';
 
 const TotalPlatoonKashyyyk: React.FC = () => {
   const orders = [
-    ['GAS', 'Mando', 'Rey-training', 'Greef', 'YodaHermit', 'JKL', 'BB-8', 'Cls', 'Cody', 'barriss', 'GAS', 'R2D2', 'JKR', 'L3-37', 'Phantom'],
-    ['GAS', 'BB-8', 'Chebacca', 'X-wing-resistance', 'YodaHermit', 'GAS', 'BB-8', 'Mando', 'Jyn', 'Sana', 'GAS', 'Mando', 'Chebacca', 'Sana', 'Home-one'],
-    ['JKL', 'Rey-training', 'GMY', '3po-Chewie', 'YodaHermit', 'JKL', 'R2D2', 'BB-8', 'umbaran', 'Fulcrum', 'JKL', 'Padme', 'C-3po', 'Sana', 'Armorer'],
-    ['JKL', 'JKR', 'GK', 'Lobot', 'HanSolo', 'GAS', 'Mando', 'Logray', 'Chasseur-plo', 'Visas', 'GAS', 'C-3po', 'HanSolo', 'ohnaka', 'Eta-2'],
-    ['JKL', 'BB-8', 'HanSolo', 'Jolee', 'Logray', 'JKL', 'Cls', 'YodaHermit', 'Teebo', 'Kuiil', 'JKL', 'Mando', 'GK', '3po-Chewie', 'Phantom'],
-    ['GAS', 'C-3po', 'KAM', 'Sabine', 'YodaHermit', 'GAS', 'GMY', 'YodaHermit', 'Holdo', 'Zaalbar', 'GAS', 'JKR', 'Leia-rebelle', 'Sana', 'Raven-claw'],
+    ["CAT", "R2D2", "Teebo", "Mace-windu", "HanSolo", "JML", "Padme", "YodaHermit", "Razor", "C-3po", "GL-rey", "R2D2", "YodaHermit", "Razor", "Anakin"],
+    ["Razor", "Cls", "KAM", "BB-8", "Logray", "JMK", "Faucon-han", "KAM", "CAT", "JKR", "JMK", "BB-8", "Logray", "CAT", "Raven-claw"],
+    ["CAT", "Greef", "KAM", "Sergent-clone-1", "GK", "JML", "Faucon-han", "Leia-rebelle", "Ben", "GMY", "JML", "R2D2", "Leia-rebelle", "Razor", "skiff-lando"],
+    ["CAT", "BB-8", "R2D2", "Five", "Logray", "GL-rey", "C-3po", "Ben", "faucon-lando", "Greef", "GL-rey", "Faucon-han", "Razor", "soldat-resistance", "Eclaireur-hoth"],
+    ["Ben", "C-3po", "Rey-training", "Greef", "Logray", "GL-rey", "Greef", "CAT", "Padme", "Cls", "JML", "GMY", "Ben", "Greef", "K-2so"],
+    ["Razor", "Cls", "Faucon-han", "Negociateur", "HanSolo", "GL-rey", "JKR", "Ben", "soldat-resistance", "Faucon-han", "JML", "Padme", "Ben", "eclaireur-ewok", "Phantom"]
   ];
 
-  // Compter les occurrences des personnages dans toutes les opérations
+
   const personnageCount: { [key: string]: number } = {};
 
   orders.forEach(order => {
@@ -33,7 +33,6 @@ const TotalPlatoonKashyyyk: React.FC = () => {
         count: personnageCount[alt],
       };
     })
-    // Trier par ordre décroissant en fonction du nombre d'occurrences
     .sort((a, b) => b.count - a.count);
 
   return (

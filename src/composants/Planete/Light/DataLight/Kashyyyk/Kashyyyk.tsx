@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
-import BraccaPlatoon from '../Bracca/DataBracca/BraccaPlatoon';
 import MissionImagesKashyyyk from './MissionImageKashyyyk';
 import StarRequireKashyyyk from './Data Kashyyyk/StarRequireKashyyyk';
 import AttackKashyyykEst from './Data Kashyyyk/AttackKashyyykEst';
@@ -9,6 +8,7 @@ import AttackKashyyykNord from './Data Kashyyyk/AttackKashyyykNord';
 import AttackKashyyykSud from './Data Kashyyyk/AttackKashyyykSud';
 import AttackKashyyykFleet from './Data Kashyyyk/AttackKashyyykFleet';
 import AttackKashyyykSpecial from './Data Kashyyyk/AttackKashyyykMission';
+import KashyyykPlatoon from './Data Kashyyyk/PlatoonKashyyyk';
 
 const Kashyyyk: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -50,7 +50,7 @@ const Kashyyyk: React.FC = () => {
           <AttackKashyyykSud />
           <AttackKashyyykFleet />
           <AttackKashyyykSpecial />
-          <BraccaPlatoon />
+          <KashyyykPlatoon />
         </div>
 
         {/* ------------------------------------------- Bouton Scroll to Top ------------------------------------------- */}

@@ -9,9 +9,9 @@ type Personnage = {
 
 const KashyyykOperation6: React.FC = () => {
   const order = [
-    "GAS", "Mando", "Rey-training", "Greef", "YodaHermit",
-    "JKL", "BB-8", "Cls", "Cody", "barriss",
-    "GAS", "R2D2", "JKR", "L3-37", "Phantom"
+    "Razor", "Cls", "Faucon-han", "Negociateur", "HanSolo",
+    "GL-rey", "JKR", "Ben", "soldat-resistance", "Faucon-han",
+    "JML", "Padme", "Ben", "eclaireur-ewok", "Phantom"
   ];
 
   const orderedImages = order
