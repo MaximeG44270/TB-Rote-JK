@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import YouTubeEmbed from '../../../../YouTubeEmbed';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import AttackKashyyykNordTeam1 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team NORD/AttackKashyyykNordTeam1';
-import DefenseKashyyykVague1 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team EST/DefenseKashyyykEstVague1';
-import DefenseKashyyykNordVague2 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team NORD/DefenseKashyyykNordVague2';
+import AttackLothalOuestTeam1 from './Team Lothal/Team OUEST/AttackLothalOuestTeam1';
+import AttackLothalOuestTeam2 from './Team Lothal/Team OUEST/AttackLothalOuestTeam2';
+import DefenseLothalEstVague1 from './Team Lothal/Team EST/DefenseLothalEstTeam1';
+import DefenseLothalOuestVague2 from './Team Lothal/Team OUEST/DefenseLothalOuestVague2';
 
 const AttackLothalOuest: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,15 +49,18 @@ const AttackLothalOuest: React.FC = () => {
             <div className='bg-gray-600 h-2 mt-6'></div>
             <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-10'>Prérequis</p>
             <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-2 leading-relaxed text-center'>
-              5x Côté Lumineux WOOKIEES (Relique 7+)
+              5x Phoenix (Relique 8+)
             </p>
             <div className='xl:flex w-full xl:gap-20 xl:p-12'>
               <div className='flex flex-col flex-1'>
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 xl:mt-10 lg:mb-8'>
                   Coup de coeur de la communauté
                 </p>
-                <AttackKashyyykNordTeam1 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/-HaHCj_IYNs" start={54} />
+                <AttackLothalOuestTeam1 />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/zXfD449EcQ0" start={813} />
+                <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 lg:mb-8'>Équipes alternatives</p>
+                <AttackLothalOuestTeam2 />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/5SD-09kDFPE" />
               </div>
 
               <div className="hidden xl:block w-2 bg-gray-600 mx-8 mt-10"></div>
@@ -68,12 +72,12 @@ const AttackLothalOuest: React.FC = () => {
                 </p>
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14'>Équipes ennemies</p>
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl text-white italic mt-4 lg:mb-4 lg:mt-8 text-justify leading-relaxed'>Vague 1 :</p>
-                <DefenseKashyyykVague1 />
+                <DefenseLothalEstVague1 />
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl text-white italic mt-4 lg:mb-4 lg:mt-8 text-justify leading-relaxed'>Vague 2 :</p>
-                <DefenseKashyyykNordVague2 />
+                <DefenseLothalOuestVague2 />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mb-8'>Les points</p>
-                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>- Vague 1 : 162 500 PG</p>
-                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic text-justify leading-relaxed'>- Vague 2 : 341 250 PG</p>
+                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>- Vague 1 : 219 375 PG</p>
+                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic text-justify leading-relaxed'>- Vague 2 : 493 594 PG</p>
               </div>
             </div>
           </div>

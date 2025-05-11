@@ -59,15 +59,15 @@ const AttackLothalEst: React.FC = () => {
                   Coup de coeur de la communauté
                 </p>
                 <AttackLothalEstTeam1 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/zXfD449EcQ0?start=499" />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/zXfD449EcQ0" start={499} />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 lg:mb-8'>Équipes alternatives (hors GL)</p>
                 <AttackLothalEstTeam4 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/mjFryLaNAK4?start=638" />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/mjFryLaNAK4" start={638} />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 lg:mb-8'>Équipes alternatives (GL)</p>
                 <AttackLothalEstTeam2 />
                 <YouTubeEmbed videoUrl="https://www.youtube.com/embed/_V0Z6R7Txz4" />
                 <AttackLothalEstTeam3 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/05ZAU-5HJgg?start=382" />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/05ZAU-5HJgg" start={382} />
               </div>
 
               <div className="hidden xl:block w-2 bg-gray-600 mx-8 mt-10"></div>

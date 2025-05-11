@@ -148,5 +148,10 @@
   { "src": "/Personnage/paz_visla.png", "alt": "Paz-vizsla", "name": "Paz Vizsla" },
   { "src": "/Personnage/mandalorbokatan.png", "alt": "Bo-katan-mandalor", "name": "Bo-Katan (Mand'alor)" },
   { "src": "/Personnage/ig12.png", "alt": "IG12", "name": "IG-12 et Grogu" },
+  { "src": "/Personnage/hera_syndulla.png", "alt": "Hera-syndulla", "name": "Hera Syndulla" },
+  { "src": "/Personnage/chopper.png", "alt": "Chopper", "name": "Chopper" },
+  { "src": "/Personnage/death_trooper.png", "alt": "Death-trooper", "name": "Death Trooper" },
+  { "src": "/Personnage/grand_admiral_thrawn.png", "alt": "Thrawn", "name": "Grand Amiral Thrawn" },
+  { "src": "/Personnage/garazeb__zeb__orrelios.png", "alt": "Zeb", "name": "Garazeb \"Zeb\" Orrelios" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" }
 ]

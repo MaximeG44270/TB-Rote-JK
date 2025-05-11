@@ -1,8 +1,8 @@
 import React from "react";
 import personnages from "../../../../../../../../assets/Personnage.json";
 
-const DefenseLothalEstVague1: React.FC = () => {
-  const order = ["Trooper-commando", "scout-trooper", "scout-trooper", "Stormtrooper", "Stormtrooper"];
+const DefenseLothalOuestVague2: React.FC = () => {
+  const order = ["Thrawn", "Death-trooper", "Death-trooper", "Trooper-commando", "Stormtrooper"];
 
   const selectedImages = order
     .map((alt) => personnages.find((p) => p.alt === alt))
@@ -22,4 +22,4 @@ const DefenseLothalEstVague1: React.FC = () => {
   );
 };
 
-export default DefenseLothalEstVague1;
+export default DefenseLothalOuestVague2;
