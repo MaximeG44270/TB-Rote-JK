@@ -141,5 +141,12 @@
   { "src": "/Personnage/negotiator.png", "alt": "Negociateur", "name": "Négociateur" },
   { "src": "/Personnage/ewok_scout.png", "alt": "eclaireur-ewok", "name": "Éclaireur Ewok" },
   { "src": "/Personnage/hoth_rebel_solider.png", "alt": "soldat-hoth", "name": "Soldat rebelle de Hoth" },
+  { "src": "/Personnage/gl-ahsoka.webp", "alt": "Gl-ahsoka", "name": "Ahsoka Tano" },
+  { "src": "/Personnage/bo-katan_kryze.png", "alt": "Bo-katan-kryze", "name": "Bo-Katan Kryze" },
+  { "src": "/Personnage/ezraexile.webp", "alt": "ez-exile", "name": " Ezra Bridger (exilé)" },
+  { "src": "/Personnage/mandobeskar.png", "alt": "Mandobeskar", "name": "Le Mandalorien (armure en beskar)" },
+  { "src": "/Personnage/paz_visla.png", "alt": "Paz-vizsla", "name": "Paz Vizsla" },
+  { "src": "/Personnage/mandalorbokatan.png", "alt": "Bo-katan-mandalor", "name": "Bo-Katan (Mand'alor)" },
+  { "src": "/Personnage/ig12.png", "alt": "IG12", "name": "IG-12 et Grogu" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" }
 ]
