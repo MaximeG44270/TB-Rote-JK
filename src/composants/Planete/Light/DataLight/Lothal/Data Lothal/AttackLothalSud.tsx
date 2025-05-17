@@ -1,16 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
 import YouTubeEmbed from '../../../../YouTubeEmbed';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import AttackKashyyykEstTeam5 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team EST/AttackKashyyykEstTeam5';
-import AttackKashyyykSudTeam2 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team SUD/AttackKashyyykSudTeam2';
-import AttackKashyyykEstTeam3 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team EST/AttackKashyyykEstTeam3';
-import AttackKashyyykEstTeam2 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team EST/AttackKashyyykEstTeam2';
-import AttackKashyyykEstTeam4 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team EST/AttackKashyyykEstTeam4';
-import AttackKashyyykSudTeam1 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team SUD/AttackKashyyykSudTeam1';
-import DefenseKashyyykVague1 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team EST/DefenseKashyyykEstVague1';
 import DefenseKashyyykSudVague2 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team SUD/DefenseKashyyykSudVague2';
+import AttackLothalSudTeam1 from './Team Lothal/Team SUD/AttackLothalSudTeam1';
+import AttackLothalSudTeam2 from './Team Lothal/Team SUD/AttackLothalSudTeam2';
+import AttackLothalSudTeam3 from './Team Lothal/Team SUD/AttackLothalSudTeam3';
+import AttackLothalSudTeam4 from './Team Lothal/Team SUD/AttackLothalSudTeam4';
+import AttackLothalSudTeam5 from './Team Lothal/Team SUD/AttackLothalSudTeam5';
+import DefenseLothalEstVague1 from './Team Lothal/Team EST/DefenseLothalEstTeam1';
 
-const AttackKashyyykSud: React.FC = () => {
+const AttackLothalSud: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const hasLoaded = useRef(false);
   
@@ -53,27 +52,25 @@ const AttackKashyyykSud: React.FC = () => {
             <div className='bg-gray-600 h-2 mt-6'></div>
             <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-10'>Prérequis</p>
             <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-2 leading-relaxed text-center'>
-              5x Côté Lumineux ou Neutre (Relique 7+)
+              5x Jedi (Relic 8+)
             </p>
             <div className='xl:flex w-full xl:gap-20 xl:p-12'>
               <div className='flex flex-col flex-1'>
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 xl:mt-10 lg:mb-8'>
                   Coup de coeur de la communauté
                 </p>
-                <AttackKashyyykEstTeam5 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/tuijX4-bWP8" start={404} />
+                <AttackLothalSudTeam1 />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/zXfD449EcQ0" start={651} />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 lg:mb-8'>Équipes alternatives (hors GL)</p>
-                <AttackKashyyykSudTeam2 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/wh2Jq_MZl1Y" />
-                <AttackKashyyykEstTeam3 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/w4zNLvN_ndI" start={293} />
-                <AttackKashyyykEstTeam2 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/IRNnaG4W6oU" start={600} />
+                <AttackLothalSudTeam2 />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/NmBF2Gdn_g8" />
+                <AttackLothalSudTeam4 />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/mdD49UZrJ_0" />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 lg:mb-8'>Équipes alternatives (GL)</p>
-                <AttackKashyyykEstTeam4 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/IRNnaG4W6oU" start={422} />
-                <AttackKashyyykSudTeam1 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/-HaHCj_IYNs" start={1012} />
+                <AttackLothalSudTeam3 />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/vSpe8CJAHoU" />
+                <AttackLothalSudTeam5 />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/gJ2qVa6d7Mc" start={631} />
               </div>
 
               <div className="hidden xl:block w-2 bg-gray-600 mx-8 mt-10"></div>
@@ -81,16 +78,19 @@ const AttackKashyyykSud: React.FC = () => {
               <div className='flex flex-col flex-1'>
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 xl:mt-10'>Modificateurs importants</p>
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>
-                  - Invoque des droïdes sondes dès qu'ils sont disponibles.
+                  - À chaque fois qu'un allié utilise une capacité spéciale pendant son tour, appelez un autre allié au hasard pour assister. Chaque fois qu'un personnage attaque hors de son tour, il gagne une pile de Rébellion. À 20 piles de Rébellion, ils obtiennent un bonus de 30 % d'Offense.
+                </p>
+                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>
+                  - Les ennemis commencent avec 5 piles de Rangs Sans Fin.
                 </p>
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14'>Équipes ennemies</p>
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl text-white italic mt-4 lg:mb-4 lg:mt-8 text-justify leading-relaxed'>Vague 1 :</p>
-                <DefenseKashyyykVague1 />
+                <DefenseLothalEstVague1 />
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl text-white italic mt-4 lg:mb-4 lg:mt-8 text-justify leading-relaxed'>Vague 2 :</p>
                 <DefenseKashyyykSudVague2 />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mb-8'>Les points</p>
-                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>- Vague 1 : 162 500 PG</p>
-                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic text-justify leading-relaxed'>- Vague 2 : 341 250 PG</p>
+                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>- Vague 1 : 219 375 PG</p>
+                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic text-justify leading-relaxed'>- Vague 2 : 493 594 PG</p>
               </div>
             </div>
           </div>
@@ -100,4 +100,4 @@ const AttackKashyyykSud: React.FC = () => {
   );
 };
 
-export default AttackKashyyykSud;
+export default AttackLothalSud;

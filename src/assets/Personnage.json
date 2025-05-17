@@ -153,5 +153,9 @@
   { "src": "/Personnage/death_trooper.png", "alt": "Death-trooper", "name": "Death Trooper" },
   { "src": "/Personnage/grand_admiral_thrawn.png", "alt": "Thrawn", "name": "Grand Amiral Thrawn" },
   { "src": "/Personnage/garazeb__zeb__orrelios.png", "alt": "Zeb", "name": "Garazeb \"Zeb\" Orrelios" },
+  { "src": "/Personnage/luminara_unduli.png", "alt": "Luminara", "name": "Luminara Unduli" },
+  { "src": "/Personnage/plo_koon.png", "alt": "Plo-koon", "name": "Plo Koon" },
+  { "src": "/Personnage/tex.charui_padawanobiwan.webp", "alt": "Padawan-obi", "name": "Padawan Obi-Wan" },
+  { "src": "/Personnage/tex.charui_masterquigon.webp", "alt": "Master-QGJ", "name": "Maître Qui-Gon" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" }
 ]
