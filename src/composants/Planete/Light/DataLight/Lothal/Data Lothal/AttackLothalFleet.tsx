@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import YouTubeEmbed from '../../../../YouTubeEmbed';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import AttackCoruscantFleetTeam1 from '../../Coruscant/DataCoruscant/SelectionTeam/TeamFleet/AttackCoruscantFleetTeam1';
-import DefenseKashyyykFleetTeam1 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team FLEET/DefenseKashyyykFleetteam1';
+import AttackLothalFleetTeam1 from './Team Lothal/Team SUD/AttackLothalFleetTeam1';
+import DefenseLothalFleetTeam1 from './Team Lothal/Team SUD/DefenseLothalFleetTeam1';
 
 const AttackLothalFleet: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -51,7 +52,9 @@ const AttackLothalFleet: React.FC = () => {
               <div className='flex flex-col flex-1'>
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-4xl font-bold mt-8 lg:mt-14 lg:mb-8'>Coup de coeur de la communauté</p>
                 <AttackCoruscantFleetTeam1 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/Sb--OqW-JmI" />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/fiX4CkIO0w8" />
+                <AttackLothalFleetTeam1 />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/9IUeAhCowi8" />
               </div>
 
               {/* ------------------------------------------- Barre de séparation ------------------------------------------- */}
@@ -60,9 +63,9 @@ const AttackLothalFleet: React.FC = () => {
               <div className='flex flex-col flex-1'>
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-4xl font-bold mt-8 lg:mt-14'>Équipes enemies</p>
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl 2xl:text-2xl text-white italic mt-4 lg:mb-4 lg:mt-8 text-justify leading-relaxed'>Vague 1 :</p>
-                <DefenseKashyyykFleetTeam1 />
+                <DefenseLothalFleetTeam1 />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-4xl font-bold mt-8 lg:mb-8'>Les points</p>
-                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl 2xl:text-2xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>- Vague 1 : 682 500 PG</p>
+                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl 2xl:text-2xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>- Vague 1 : 987 188 PG</p>
               </div>
             </div>
           </div>

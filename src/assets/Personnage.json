@@ -157,5 +157,8 @@
   { "src": "/Personnage/plo_koon.png", "alt": "Plo-koon", "name": "Plo Koon" },
   { "src": "/Personnage/tex.charui_padawanobiwan.webp", "alt": "Padawan-obi", "name": "Padawan Obi-Wan" },
   { "src": "/Personnage/tex.charui_masterquigon.webp", "alt": "Master-QGJ", "name": "Maître Qui-Gon" },
+  { "src": "/Personnage/plo_koon.png", "alt": "Plo-koon", "name": "Plo Koon" },
+  { "src": "/Personnage/ahsoka_tano's_jedi_starfighter.png", "alt": "Tano-fighter", "name": "Chasseur stellaire Jedi d'Ahsoka Tano" },
+  { "src": "/Personnage/imperial_tie_bomber.png", "alt": "Tie-bomber", "name": "Bombardier TIE impérial" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" }
 ]
