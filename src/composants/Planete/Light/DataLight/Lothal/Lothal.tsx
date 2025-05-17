@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
-import KashyyykPlatoon from '../Kashyyyk/Data Kashyyyk/PlatoonKashyyyk';
 import StarRequireLothal from './Data Lothal/StarRequireLothal';
 import MissionImagesLothal from './MissionImageLothal';
 import AttackLothalEst from './Data Lothal/AttackLothalEst';
 import AttackLothalOuest from './Data Lothal/AttackLothalOuest';
 import AttackLothalSud from './Data Lothal/AttackLothalSud';
 import AttackLothalFleet from './Data Lothal/AttackLothalFleet';
+import LothalPlatoon from './Data Lothal/PlatoonLothal';
 
 const Lothal: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -48,7 +48,7 @@ const Lothal: React.FC = () => {
           <AttackLothalOuest />
           <AttackLothalSud />
           <AttackLothalFleet />
-          <KashyyykPlatoon />
+          <LothalPlatoon />
         </div>
 
         {/* ------------------------------------------- Bouton Scroll to Top ------------------------------------------- */}

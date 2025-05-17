@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import YouTubeEmbed from '../../../../YouTubeEmbed';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import AttackCoruscantFleetTeam1 from '../../Coruscant/DataCoruscant/SelectionTeam/TeamFleet/AttackCoruscantFleetTeam1';
-import AttackLothalFleetTeam1 from './Team Lothal/Team SUD/AttackLothalFleetTeam1';
-import DefenseLothalFleetTeam1 from './Team Lothal/Team SUD/DefenseLothalFleetTeam1';
+import AttackLothalFleetTeam1 from './Team Lothal/Team FLEET/AttackLothalFleetTeam1';
+import DefenseLothalFleetTeam1 from './Team Lothal/Team FLEET/DefenseLothalFleetTeam1';
 
 const AttackLothalFleet: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -51,6 +51,7 @@
   { "src": "/Personnage/phantom_ii.png", "alt": "Phantom", "name": "Phantom ll" },
   { "src": "/Personnage/cassian's_u-wing.png", "alt": "U-wing-cassian", "name": "U-wing de cassian" },
   { "src": "/Personnage/ghost.png", "alt": "Ghost", "name": "Ghost" },
+  { "src": "/Personnage/tex.charui_50rt.webp", "alt": "50R-T", "name": "50R-T" },
   { "src": "/Personnage/home_one.png", "alt": "Home-one", "name": "Home One" },
   { "src": "/Personnage/endurance.png", "alt": "Endurance", "name": "Endurance" },
   { "src": "/Personnage/BTL-B_Y-wing_Starfighter.png", "alt": "BTL", "name": "Chasseur Y-wing BTL-B" },
@@ -160,5 +161,14 @@
   { "src": "/Personnage/plo_koon.png", "alt": "Plo-koon", "name": "Plo Koon" },
   { "src": "/Personnage/ahsoka_tano's_jedi_starfighter.png", "alt": "Tano-fighter", "name": "Chasseur stellaire Jedi d'Ahsoka Tano" },
   { "src": "/Personnage/imperial_tie_bomber.png", "alt": "Tie-bomber", "name": "Bombardier TIE impérial" },
+  { "src": "/Personnage/dash_rendar.png", "alt": "Dash-rendar", "name": "Dash Rendar" },
+  { "src": "/Personnage/xanadu_blood.png", "alt": "Xanadu", "name": "Xanadu Blood" },
+  { "src": "/Personnage/chief_nebit.png", "alt": "Nebit", "name": "Chef Nebit" },
+  { "src": "/Personnage/eeth_koth.png", "alt": "Eeth", "name": "Eeth Koth" },
+  { "src": "/Personnage/jedi_consular.png", "alt": "Jedi-consulaire", "name": "Jedi Consulaire" },
+  { "src": "/Personnage/scarif_rebel_pathfinder.png", "alt": "Scarif-rebelle", "name": "Pisteur rebelle de Scarif" },
+  { "src": "/Personnage/bistan.png", "alt": "Bistan", "name": "Bistan" },
+  { "src": "/Personnage/ewok_wicket.png", "alt": "Wicket", "name": "Wicket" },
+  { "src": "/Personnage/wedge_antilles's_x-wing.png", "alt": "Wedge-xwing", "name": "X-Wing de Wedge Antilles" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" }
 ]
