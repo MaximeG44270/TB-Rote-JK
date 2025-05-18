@@ -6,11 +6,11 @@ import Light from './composants/Planete/Light/Light';
 import Mixte from './composants/Planete/Mixte/Mixte';
 import Coruscant from './composants/Planete/Light/DataLight/Coruscant/Coruscant';
 import Kashyyyk from './composants/Planete/Light/DataLight/Kashyyyk/Kashyyyk';
-import RingOfKafrene from './composants/Planete/Light/DataLight/RingOfKafrene';
 import Scarif from './composants/Planete/Light/DataLight/Scarif';
 import Zeffo from './composants/Planete/Light/DataLight/Zeffo';
 import Bracca from './composants/Planete/Light/DataLight/Bracca/Bracca';
 import Lothal from './composants/Planete/Light/DataLight/Lothal/Lothal';
+import RingOfKafrene from './composants/Planete/Light/DataLight/RingOfKafrene/RingOfKafrene';
 
 function App() {
   return (

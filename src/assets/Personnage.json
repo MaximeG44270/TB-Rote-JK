@@ -17,6 +17,7 @@
   { "src": "/Personnage/tex.charui_padawanobiwan.webp", "alt": "Padawan-obi", "name": "Padawan Obi-Wan" },
   { "src": "/Personnage/tex.charui_masterquigon.webp", "alt": "Master-QGJ", "name": "Maître Qui-Gon" },
   { "src": "/Personnage/eeth_koth.png", "alt": "Eeth", "name": "Eeth Koth" },
+  { "src": "/Personnage/queen_amidala.png", "alt": "Queen", "name": "Reine Amidala" },
   { "src": "/Personnage/jedi_consular.png", "alt": "Jedi-consulaire", "name": "Jedi Consulaire" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" },
   { "type": "separator", "label": "---------------------------------------------------------------------------------------  REPUBLIQUE GALACTIQUE" },
@@ -123,6 +124,7 @@
   { "src": "/Personnage/finn.png", "alt": "Finn", "name": "Finn" },
   { "src": "/Personnage/rey_(scavenger).png", "alt": "Rey-scavenger", "name": "Rey (Pilleuse)" },
   { "src": "/Personnage/rose_tico.png", "alt": "Rose", "name": "Rose Tico" },
+  { "src": "/Personnage/poe_dameron.png", "alt": "Poe", "name": "Poe Dameron" },
   { "src": "/Personnage/resistance_trooper.png", "alt": "soldat-resistance", "name": "Soldat de la Résistance" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------- RESISTANCE" },
   
@@ -180,7 +182,10 @@
 
   { "type": "section", "label": "SPECTRE" },
   { "src": "/Personnage/ahsoka_tano_(fulcrum).png", "alt": "Fulcrum", "name": "Ahsoka Tano (Fulcrum)" },
-  { "src": "/Personnage/ezraexile.webp", "alt": "ez-exile", "name": " Ezra Bridger (exilé)" },
+  { "src": "/Personnage/ezraexile.webp", "alt": "ez-exile", "name": "Ezra Bridger (exilé)" },
+  { "src": "/Personnage/tex.charui_generalsyndulla.webp", "alt": "Gene-syn", "name": "Général Syndulla" },
+  { "src": "/Personnage/tex.charui_huyang.webp", "alt": "Huyang", "name": "Huyang" },
+  { "src": "/Personnage/tex.charui_padawansabine.webp", "alt": "PSW", "name": "Padawan Sabine Wren" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------- SPECTRE" },
   
   
