@@ -9,7 +9,7 @@ type Personnage = {
 
 const BraccaOperation1: React.FC = () => {
   const order = [
-    "Boushh", "Razor", "wedge", "L3-37", "Ghost",
+    "Boushh", "Razor", "Wedge-xwing", "L3-37", "Ghost",
     "Amiral-raddus", "CAT", "X-wing-poe", "Sergent-clone-1", "R2D2",
     "GL-rey", "Razor", "BTL", "Juhani", "Outrider"
   ];

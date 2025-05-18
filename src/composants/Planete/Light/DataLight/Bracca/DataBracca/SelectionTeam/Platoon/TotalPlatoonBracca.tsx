@@ -3,7 +3,7 @@ import personnages from '../../../../../../../../assets/Personnage.json';
 
 const TotalPlatoonBracca: React.FC = () => {
   const orders = [
-  ["Boushh", "Razor", "wedge", "L3-37", "Ghost", "Amiral-raddus", "CAT", "X-wing-poe", "Sergent-clone-1", "R2D2", "GL-rey", "Razor", "BTL", "Juhani", "Outrider"],
+  ["Boushh", "Razor", "Wedge-xwing", "L3-37", "Ghost", "Amiral-raddus", "CAT", "X-wing-poe", "Sergent-clone-1", "R2D2", "GL-rey", "Razor", "BTL", "Juhani", "Outrider"],
   ["Young-solo", "Razor", "PAO", "Chebacca", "MM", "secura", "Ben", "Jedi-stellaire", "BB-8", "C-3po", "Profundity", "Razor", "CRA", "JKR", "BTL"],
   ["Endurance", "Ben", "Echo-501", "GMY", "Ebon-hawk", "Greef", "Ben", "Kanan", "BB-8", "Rey-training", "JMK", "Ben", "Rose", "GMY", "Enfys"],
   ["3po-Chewie", "CAT", "Razor", "Bodhi", "Five", "Greef", "Ben", "CAT", "Ghost", "R2D2", "Profundity", "Razor", "Ben", "chew-veteran", "Omega"],
