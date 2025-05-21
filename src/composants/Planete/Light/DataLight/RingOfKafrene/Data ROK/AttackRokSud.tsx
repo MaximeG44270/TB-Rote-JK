@@ -1,13 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import YouTubeEmbed from '../../../../YouTubeEmbed';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import DefenseKashyyykSudVague2 from '../../Kashyyyk/Data Kashyyyk/Team Kashyyyk/Team SUD/DefenseKashyyykSudVague2';
-import AttackLothalSudTeam1 from '../../Lothal/Data Lothal/Team Lothal/Team SUD/AttackLothalSudTeam1';
-import AttackLothalSudTeam2 from '../../Lothal/Data Lothal/Team Lothal/Team SUD/AttackLothalSudTeam2';
-import AttackLothalSudTeam4 from '../../Lothal/Data Lothal/Team Lothal/Team SUD/AttackLothalSudTeam4';
-import AttackLothalSudTeam3 from '../../Lothal/Data Lothal/Team Lothal/Team SUD/AttackLothalSudTeam3';
-import AttackLothalSudTeam5 from '../../Lothal/Data Lothal/Team Lothal/Team SUD/AttackLothalSudTeam5';
-import DefenseLothalEstVague1 from '../../Lothal/Data Lothal/Team Lothal/Team EST/DefenseLothalEstTeam1';
+import DefenseRokSudVague1 from './Team ROK/Team SUD/DefenseRokSudVague1';
+import DefenseRokSudVague2 from './Team ROK/Team SUD/DefenseRokSudVague2';
+import AttackRokSudTeam1 from './Team ROK/Team SUD/AttackRokSudTeam1';
 
 const AttackRokSud: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,25 +48,17 @@ const AttackRokSud: React.FC = () => {
             <div className='bg-gray-600 h-2 mt-6'></div>
             <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-10'>Prérequis</p>
             <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-2 leading-relaxed text-center'>
-              5x Jedi (Relic 8+)
+              5x Côté Lumière ou Neutre (Relique 9+)
             </p>
             <div className='xl:flex w-full xl:gap-20 xl:p-12'>
               <div className='flex flex-col flex-1'>
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 xl:mt-10 lg:mb-8'>
                   Coup de coeur de la communauté
                 </p>
-                <AttackLothalSudTeam1 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/zXfD449EcQ0" start={651} />
+                <AttackRokSudTeam1 />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/p-oQYUL5jlI" start={457} />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 lg:mb-8'>Équipes alternatives (hors GL)</p>
-                <AttackLothalSudTeam2 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/NmBF2Gdn_g8" />
-                <AttackLothalSudTeam4 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/mdD49UZrJ_0" />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 lg:mb-8'>Équipes alternatives (GL)</p>
-                <AttackLothalSudTeam3 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/vSpe8CJAHoU" />
-                <AttackLothalSudTeam5 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/gJ2qVa6d7Mc" start={631} />
               </div>
 
               <div className="hidden xl:block w-2 bg-gray-600 mx-8 mt-10"></div>
@@ -78,16 +66,19 @@ const AttackRokSud: React.FC = () => {
               <div className='flex flex-col flex-1'>
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 xl:mt-10'>Modificateurs importants</p>
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>
-                  - À chaque fois qu'un allié utilise une capacité spéciale pendant son tour, appelez un autre allié au hasard pour assister. Chaque fois qu'un personnage attaque hors de son tour, il gagne une pile de Rébellion. À 20 piles de Rébellion, ils obtiennent un bonus de 30 % d'Offense.
+                  - Au début de l'affrontement, un allié et un ennemi aléatoires reçoivent secrètement l'effet Informateur. Les coups critiques contre l'Informateur le révèlent. La première fois qu'un Informateur est vaincu, s'il reste un Informateur actif, cet Informateur et ses alliés obtiennent 50 % de Pénétration d'Armure/Chance de Coup Critique, 25 % de Dégâts Critiques, et 20 de Vitesse. Ensuite, l'effet Informateur est dissipé de tous les personnages.
                 </p>
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>
-                  - Les ennemis commencent avec 5 piles de Rangs Sans Fin.
+                  - Invoque la Sonde Droïde dès que possible.
+                </p>
+                <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>
+                  - Si un allié de l'Empire est dans l'emplacement de Leader, ils gagnent 30 % de Santé/Protection maximale, et l'allié le plus fort provoque pendant 2 tours au début de l'affrontement. Chaque fois qu'un allié de l'Empire (à l'exception des invocations) utilise une capacité spéciale pendant son tour, tous les alliés de l'Empire augmentent les dégâts qu'ils infligent de 10 % jusqu'à la fin de l'affrontement, puis tous les autres alliés de l'Empire sont appelés pour assister.
                 </p>
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14'>Équipes ennemies</p>
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl text-white italic mt-4 lg:mb-4 lg:mt-8 text-justify leading-relaxed'>Vague 1 :</p>
-                <DefenseLothalEstVague1 />
+                <DefenseRokSudVague1 />
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl text-white italic mt-4 lg:mb-4 lg:mt-8 text-justify leading-relaxed'>Vague 2 :</p>
-                <DefenseKashyyykSudVague2 />
+                <DefenseRokSudVague2 />
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mb-8'>Les points</p>
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic mt-4 text-justify leading-relaxed'>- Vague 1 : 219 375 PG</p>
                 <p className='text-lg md:text-xl lg:text-3xl xl:text-xl lg:mt-4 text-slate-300 italic text-justify leading-relaxed'>- Vague 2 : 493 594 PG</p>

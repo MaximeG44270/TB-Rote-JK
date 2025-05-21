@@ -58,6 +58,16 @@
   { "type": "section", "label": "SITH" },
   { "src": "/Personnage/darth_sidious.png", "alt": "Darth-sidious", "name": "Dark Sidious" },
   { "type": "separator", "label": "--------------------------------------------------------------------------------------------------------  SITH" },
+
+
+
+  { "type": "section", "label": "GUNGAN" },
+  { "src": "/Personnage/gungan_phalanx.png", "alt": "Phalanx", "name": "Phalange gungan" },
+  { "src": "/Personnage/gungan_boomadier.png", "alt": "Boomadier", "name": "Bombardier gungan" },
+  { "src": "/Personnage/jar_jar_binks.png", "alt": "Jarjar", "name": "Jar Jar Binks" },
+  { "src": "/Personnage/boss_nass.png", "alt": "Nass", "name": "Boss Nass" },
+  { "src": "/Personnage/captain_tarpals.png", "alt": "Tarpals", "name": "Capitaine Tarpals" },
+  { "type": "separator", "label": "------------------------------------------------------------------------------------------------------  GUNGAN" },
   
   
 
@@ -195,7 +205,7 @@
   { "src": "/Personnage/teebo.png", "alt": "Teebo", "name": "Teebo" },
   { "src": "/Personnage/ewok_scout.png", "alt": "eclaireur-ewok", "name": "Éclaireur Ewok" },
   { "src": "/Personnage/ewok_wicket.png", "alt": "Wicket", "name": "Wicket" },
-  { "type": "separator", "label": "------------------------------------------------------------------------------------------------- EWOKS" },
+  { "type": "separator", "label": "-------------------------------------------------------------------------------------------------- EWOKS" },
   
   
   
@@ -239,6 +249,15 @@
   { "type": "section", "label": "JAWA" },
   { "src": "/Personnage/chief_nebit.png", "alt": "Nebit", "name": "Chef Nebit" },
   { "type": "separator", "label": "---------------------------------------------------------------------------------------------------- JAWA" },
+
+
+
+  { "type": "section", "label": "CARTEL" },
+  { "src": "/Personnage/mob_enforcer.png", "alt": "mob-enforcer", "name": "Homme de main de la pègre" },
+  { "src": "/Personnage/120px-Unit-NPC-Cartel_Spy-portrait.png", "alt": "Cartel-spy", "name": "Cartel SPY" },
+  { "src": "/Personnage/120px-Unit-NPC-Cartel_Saboteur-portrait.png", "alt": "Cartel-saboteur", "name": "Cartel Saboteur" },
+  { "src": "/Personnage/120px-Unit-NPC-Cartel_Bruiser-portrait.png", "alt": "Cartel-bruiser", "name": "Cartel Bruiser" },
+  { "type": "separator", "label": "--------------------------------------------------------------------------------------------------- CARTEL" },
 
   
 
