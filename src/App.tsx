@@ -6,7 +6,7 @@ import Light from './composants/Planete/Light/Light';
 import Mixte from './composants/Planete/Mixte/Mixte';
 import Coruscant from './composants/Planete/Light/DataLight/Coruscant/Coruscant';
 import Kashyyyk from './composants/Planete/Light/DataLight/Kashyyyk/Kashyyyk';
-import Scarif from './composants/Planete/Light/DataLight/Scarif';
+import Scarif from './composants/Planete/Light/DataLight/Scarif/Scarif';
 import Zeffo from './composants/Planete/Light/DataLight/Zeffo';
 import Bracca from './composants/Planete/Light/DataLight/Bracca/Bracca';
 import Lothal from './composants/Planete/Light/DataLight/Lothal/Lothal';

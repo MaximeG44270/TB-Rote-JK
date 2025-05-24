@@ -20,6 +20,7 @@
   { "src": "/Personnage/queen_amidala.png", "alt": "Queen", "name": "Reine Amidala" },
   { "src": "/Personnage/jedi_consular.png", "alt": "Jedi-consulaire", "name": "Jedi Consulaire" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" },
+  { "src": "/Personnage/ima-gun_di.png", "alt": "Ima-gun", "name": "Ima-Gun Di" },
   { "type": "separator", "label": "---------------------------------------------------------------------------------------  REPUBLIQUE GALACTIQUE" },
   
   
@@ -92,6 +93,7 @@
   { "src": "/Personnage/han_solo.png", "alt": "HanSolo", "name": "Han Solo" },
   { "src": "/Personnage/hoth_rebel_solider.png", "alt": "soldat-hoth", "name": "Soldat rebelle de Hoth" },
   { "src": "/Personnage/saw_gerrera.png", "alt": "Saw-gerrera", "name": "Saw Gerrera" },
+  { "src": "/Personnage/lando_calrissian.png", "alt": "Lando-cal", "name": "Lando Calrissian" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------------ REBELLE" },
 
 
@@ -111,6 +113,7 @@
   { "src": "/Personnage/jedi_knight_revan.png", "alt": "JKR", "name": "Chevalier Jedi Revan" },
   { "src": "/Personnage/jolee_bindo.png", "alt": "Jolee", "name": "Jolee Bindo" },
   { "src": "/Personnage/juhani.png", "alt": "Juhani", "name": "Juhani" },
+  { "src": "/Personnage/bastila_shan.png", "alt": "Bastila-light", "name": "Bastila Shan" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------ ANCIENNE REPUBLIQUE" },
 
 
@@ -152,6 +155,7 @@
   { "type": "section", "label": "DROID" },
   { "src": "/Personnage/tex.charui_50rt.webp", "alt": "50R-T", "name": "50R-T" },
   { "src": "/Personnage/l3-37.png", "alt": "L3-37", "name": "L3-37" },
+  { "src": "/Personnage/t3-m4.png", "alt": "T3-M4", "name": "T3-M4" },
   { "type": "separator", "label": "----------------------------------------------------------------------------------------------------- DROID" },
 
 
@@ -186,6 +190,7 @@
   { "src": "/Personnage/baze_malbus.png", "alt": "Baze-malbus", "name": "Baze Malbus" },
   { "src": "/Personnage/cassian_andor.png", "alt": "Cassian-andor", "name": "Cassian Andor" },
   { "src": "/Personnage/k-2so.png", "alt": "K-2so", "name": "K-2SO" },
+  { "src": "/Personnage/chirrut_imwe.png", "alt": "Chirrut", "name": "Chirrut Îmwe" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------- ROGUE ONE" },
   
   
@@ -225,6 +230,7 @@
   { "src": "/Personnage/veteran_smuggler_chewbacca.png", "alt": "chew-veteran", "name": "Contrebandier vétéran Chewbacca" },
   { "src": "/Personnage/vandor_chewbacca.png", "alt": "Vandor-chew", "name": "Chewbacca Vandor" },
   { "src": "/Personnage/tarfful.png", "alt": "Tarfful", "name": "Tarfful" },
+  { "src": "/Personnage/clone_wars_chewbacca.png", "alt": "Clone-chew", "name": "Chewbacca Guerre des Clones" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------- WOOKIEE" },
   
   
@@ -269,6 +275,7 @@
   { "src": "/Personnage/ahsoka_tano's_jedi_starfighter.png", "alt": "Tano-fighter", "name": "Chasseur stellaire Jedi d'Ahsoka Tano" },
   { "src": "/Personnage/anakin's_eta-2_starfighter.png", "alt": "Eta-2", "name": "Chasseur Eta-2 d'Anakin" },
   { "src": "/Personnage/rex's_arc-170.png", "alt": "Rex-170", "name": "ARC-170 de Rex" },
+  { "src": "/Personnage/marauder.png", "alt": "Marauder", "name": "Maraudeur" },
   { "src": "/Personnage/jedi_consular's_starfighter.png", "alt": "Jedi-stellaire", "name": "Chasseur stellaire du jedi consulaire" },
   { "src": "/Personnage/BTL-B_Y-wing_Starfighter.png", "alt": "BTL", "name": "Chasseur Y-wing BTL-B" },
   { "src": "/Personnage/clone_sergeant's_arc-170.png", "alt": "Clone-170", "name": "ARC-170 du Sergent clone" },

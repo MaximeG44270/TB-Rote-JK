@@ -57,8 +57,6 @@ const AttackRokSud: React.FC = () => {
                 </p>
                 <AttackRokSudTeam1 />
                 <YouTubeEmbed videoUrl="https://www.youtube.com/embed/p-oQYUL5jlI" start={457} />
-                <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 lg:mb-8'>Équipes alternatives (hors GL)</p>
-                <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl font-bold mt-8 lg:mt-14 lg:mb-8'>Équipes alternatives (GL)</p>
               </div>
 
               <div className="hidden xl:block w-2 bg-gray-600 mx-8 mt-10"></div>

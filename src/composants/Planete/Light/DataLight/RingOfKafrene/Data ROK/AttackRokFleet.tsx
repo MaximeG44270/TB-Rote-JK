@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import YouTubeEmbed from '../../../../YouTubeEmbed';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import AttackCoruscantFleetTeam1 from '../../Coruscant/DataCoruscant/SelectionTeam/TeamFleet/AttackCoruscantFleetTeam1';
-import AttackLothalFleetTeam1 from '../../Lothal/Data Lothal/Team Lothal/Team FLEET/AttackLothalFleetTeam1';
 import DefenseLothalFleetTeam1 from '../../Lothal/Data Lothal/Team Lothal/Team FLEET/DefenseLothalFleetTeam1';
+import AttackRokFleetTeam1 from './Team ROK/Team FLEET/AttackRokFleetTeam1';
 
 const AttackRokFleet: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,14 +47,14 @@ const AttackRokFleet: React.FC = () => {
           <div>
             <div className='bg-gray-600 h-2 mt-6'></div>
             <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-4xl font-bold mt-10'>Prérequis</p>
-            <p className='text-lg md:text-xl lg:text-3xl xl:text-xl 2xl:text-2xl lg:mt-4 text-slate-300 italic mt-2 text-center leading-relaxed'>Vaisseaux du Côté Lumineux (7 étoiles) et Profundity</p>
+            <p className='text-lg md:text-xl lg:text-3xl xl:text-xl 2xl:text-2xl lg:mt-4 text-slate-300 italic mt-2 text-center leading-relaxed'>Vaisseaux du Côté Lumière (7 Étoiles)</p>
             <div className='xl:flex w-full xl:gap-20 xl:p-12'>
               <div className='flex flex-col flex-1'>
                 <p className='text-xl md:text-3xl lg:text-5xl xl:text-3xl 2xl:text-4xl font-bold mt-8 lg:mt-14 lg:mb-8'>Coup de coeur de la communauté</p>
                 <AttackCoruscantFleetTeam1 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/fiX4CkIO0w8" />
-                <AttackLothalFleetTeam1 />
-                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/9IUeAhCowi8" />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/mw0ByoqQK94" />
+                <AttackRokFleetTeam1 />
+                <YouTubeEmbed videoUrl="https://www.youtube.com/embed/0z7_AMEg1xs" />
               </div>
 
               {/* ------------------------------------------- Barre de séparation ------------------------------------------- */}

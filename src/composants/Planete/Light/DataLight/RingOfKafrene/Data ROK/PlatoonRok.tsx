@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import LothalOperation1 from '../../Lothal/Data Lothal/Team Lothal/Platoon/LothalOperation1';
-import LothalOperation2 from '../../Lothal/Data Lothal/Team Lothal/Platoon/LothalOperation2';
-import LothalOperation3 from '../../Lothal/Data Lothal/Team Lothal/Platoon/LothalOperation3';
-import LothalOperation4 from '../../Lothal/Data Lothal/Team Lothal/Platoon/LothalOperation4';
-import LothalOperation5 from '../../Lothal/Data Lothal/Team Lothal/Platoon/LothalOperation5';
-import LothalOperation6 from '../../Lothal/Data Lothal/Team Lothal/Platoon/LothalOperation6';
-import TotalPlatoonLothal from '../../Lothal/Data Lothal/Team Lothal/Platoon/TotalPlatoonLothal';
+import RokOperation1 from './Team ROK/Platoon/RokPlatoon1';
+import RokOperation2 from './Team ROK/Platoon/RokPlatoon2';
+import RokOperation3 from './Team ROK/Platoon/RokPlatoon3';
+import RokOperation4 from './Team ROK/Platoon/RokPlatoon4';
+import RokOperation5 from './Team ROK/Platoon/RokPlatoon5';
+import RokOperation6 from './Team ROK/Platoon/RokPlatoon6';
+import TotalPlatoonRok from './Team ROK/Platoon/RokPlatoontotal';
 
 const RokPlatoon: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,13 +38,13 @@ const RokPlatoon: React.FC = () => {
   }, []);
 
   const operations = [
-    { title: "Opération 1", component: <LothalOperation1 /> },
-    { title: "Opération 2", component: <LothalOperation2 /> },
-    { title: "Opération 3", component: <LothalOperation3 /> },
-    { title: "Opération 4", component: <LothalOperation4 /> },
-    { title: "Opération 5", component: <LothalOperation5 /> },
-    { title: "Opération 6", component: <LothalOperation6 /> },
-    { title: "Total", component: <TotalPlatoonLothal /> },
+    { title: "Opération 1", component: <RokOperation1 /> },
+    { title: "Opération 2", component: <RokOperation2 /> },
+    { title: "Opération 3", component: <RokOperation3 /> },
+    { title: "Opération 4", component: <RokOperation4 /> },
+    { title: "Opération 5", component: <RokOperation5 /> },
+    { title: "Opération 6", component: <RokOperation6 /> },
+    { title: "Total", component: <TotalPlatoonRok /> },
   ];
 
   const toggleSubMenu = (index: number) => {
