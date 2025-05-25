@@ -4,9 +4,9 @@ import personnages from '../../../../../../../../assets/Personnage.json';
 const AttackBraccaMiddleTeam1: React.FC = () => {
   const order = ['JKL', 'JML', 'Shaak-ti', 'Anakin', 'GMY'];
 
-  const selectedImages = personnages.filter((personnage) => 
-    order.includes(personnage.alt)
-  );
+  const selectedImages = personnages.filter((personnage): personnage is { src: string; alt: string } => {
+      return personnage.alt !== undefined && order.includes(personnage.alt);
+    });
 
   // Trier les images selon l'ordre défini
   const sortedImages = selectedImages.sort((a, b) => {

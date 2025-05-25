@@ -4,9 +4,9 @@ import personnages from '../../../../../../../../assets/Personnage.json';
 const AttackLothalFleetTeam1: React.FC = () => {
   const order = ['Negociateur', 'Eta-2', 'BTL', 'umbaran', 'Tano-fighter', 'Chasseur-plo', 'Rex-170', 'Clone-170'];
 
-  const selectedImages = personnages.filter((personnage) => 
-    order.includes(personnage.alt)
-  );
+  const selectedImages = personnages.filter((personnage): personnage is { src: string; alt: string } => {
+    return personnage.alt !== undefined && order.includes(personnage.alt);
+  });
 
   // Trier les images selon l'ordre défini
   const sortedImages = selectedImages.sort((a, b) => {
