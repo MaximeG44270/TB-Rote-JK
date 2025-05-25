@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
-import StarRequireRok from '../RingOfKafrene/Data ROK/StarRequireRok';
-import AttackRokEst from '../RingOfKafrene/Data ROK/AttackRokEst';
-import AttackRokNord from '../RingOfKafrene/Data ROK/AttackRokNord';
-import AttackRokOuest from '../RingOfKafrene/Data ROK/AttackRokOuest';
-import AttackRokSud from '../RingOfKafrene/Data ROK/AttackRokSud';
 import AttackRokFleet from '../RingOfKafrene/Data ROK/AttackRokFleet';
 import RokPlatoon from '../RingOfKafrene/Data ROK/PlatoonRok';
 import MissionImagesScarif from './MissionImageScarif';
+import StarRequireScarif from './Data Scarif/StarRequireScarif';
+import AttackScarifNordEst from './Data Scarif/AttackScarifNordEst';
+import AttackScarifNordOuest from './Data Scarif/AttackScarifNordOuest';
+import AttackScarifSudEst from './Data Scarif/AttackScarifSudEst';
+import AttackScarifSudOuest from './Data Scarif/AttackScarifSudOuest';
 
 const Scarif: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -42,13 +42,13 @@ const Scarif: React.FC = () => {
 
         <p id="star-require" className="text-center text-7xl mt-8 font-bold font-poppins">Scarif</p>
         <div className="p-4">
-          <StarRequireRok />
+          <StarRequireScarif />
         </div>
         <div className="p-4 md:p-8 lg:p-12 mb-8">
-          <AttackRokEst />
-          <AttackRokNord />
-          <AttackRokOuest />
-          <AttackRokSud />
+          <AttackScarifNordEst />
+          <AttackScarifNordOuest />
+          <AttackScarifSudOuest />
+          <AttackScarifSudEst />
           <AttackRokFleet />
           <RokPlatoon />
         </div>

@@ -52,6 +52,8 @@
   { "src": "/Personnage/mara_jade_teh.png", "alt": "Mara", "name": "Mara Jade, la main de l'empereur" },
   { "src": "/Personnage/imperialofficer.png", "alt": "Imperial-officer", "name": "Officier impérial" },
   { "src": "/Personnage/tie_fighter_pilot.png", "alt": "tie-pilote", "name": "Pilote de chasseur TIE" },
+  { "src": "/Personnage/shoretrooper.png", "alt": "Shore-trooper", "name": "Shoretrooper" },
+  { "src": "/Personnage/director_krennic.png", "alt": "Krennic", "name": "Directeur Krennic" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------------  EMPIRE" },
 
 
@@ -156,6 +158,7 @@
   { "src": "/Personnage/tex.charui_50rt.webp", "alt": "50R-T", "name": "50R-T" },
   { "src": "/Personnage/l3-37.png", "alt": "L3-37", "name": "L3-37" },
   { "src": "/Personnage/t3-m4.png", "alt": "T3-M4", "name": "T3-M4" },
+  { "src": "/Personnage/imperial_probe_droid.png", "alt": "Sonde-imp", "name": "Droïde Sonde Impérial" },
   { "type": "separator", "label": "----------------------------------------------------------------------------------------------------- DROID" },
 
 
