@@ -21,6 +21,7 @@
   { "src": "/Personnage/jedi_consular.png", "alt": "Jedi-consulaire", "name": "Jedi Consulaire" },
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" },
   { "src": "/Personnage/ima-gun_di.png", "alt": "Ima-gun", "name": "Ima-Gun Di" },
+  { "src": "/Personnage/coruscant_underworld_police.png", "alt": "Police", "name": "Polie de la pègre de Coruscant" },
   { "type": "separator", "label": "---------------------------------------------------------------------------------------  REPUBLIQUE GALACTIQUE" },
   
   
@@ -164,7 +165,7 @@
 
 
   { "type": "section", "label": "MANDALORIEN" },
-  { "src": "/Personnage/beskar_mando.png", "alt": "Mando", "name": "Le Mandalorien (armure en beskar)" },
+  { "src": "/Personnage/beskar_mando.png", "alt": "Mando", "name": "Le Mandalorien" },
   { "src": "/Personnage/the_armorer.png", "alt": "Armorer", "name": "L'Armurière" },
   { "src": "/Personnage/tex.charui_sabine_s3.webp", "alt": "Sabine", "name": "Sabine Wren" },
   { "src": "/Personnage/bo-katan_kryze.png", "alt": "Bo-katan-kryze", "name": "Bo-Katan Kryze" },
@@ -304,6 +305,7 @@
 
   { "type": "section", "label": "VAISSEAU LUMINEUX RESISTANCE" },
   { "src": "/Personnage/poe_dameron's_x-wing.png", "alt": "X-wing-poe", "name": "X-wing de Poe Dameron" },
+  { "src": "/public/Personnage/resistance_x-wing.png", "alt": "X-wing-resistance", "name": "X-wing de la Résistance" },
 
 
   { "type": "section", "label": "VAISSEAU LUMINEUX ANCIENNE REPUBLIQUE" },

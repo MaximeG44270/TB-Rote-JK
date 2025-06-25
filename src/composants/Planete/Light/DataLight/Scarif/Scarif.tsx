@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
 import AttackRokFleet from '../RingOfKafrene/Data ROK/AttackRokFleet';
-import RokPlatoon from '../RingOfKafrene/Data ROK/PlatoonRok';
 import MissionImagesScarif from './MissionImageScarif';
 import StarRequireScarif from './Data Scarif/StarRequireScarif';
 import AttackScarifNordEst from './Data Scarif/AttackScarifNordEst';
 import AttackScarifNordOuest from './Data Scarif/AttackScarifNordOuest';
 import AttackScarifSudEst from './Data Scarif/AttackScarifSudEst';
 import AttackScarifSudOuest from './Data Scarif/AttackScarifSudOuest';
+import ScarifPlatoon from './Data Scarif/PlatoonScarif';
 
 const Scarif: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -50,7 +50,7 @@ const Scarif: React.FC = () => {
           <AttackScarifSudOuest />
           <AttackScarifSudEst />
           <AttackRokFleet />
-          <RokPlatoon />
+          <ScarifPlatoon />
         </div>
 
         {/* ------------------------------------------- Bouton Scroll to Top ------------------------------------------- */}

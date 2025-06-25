@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import YouTubeEmbed from '../../../../YouTubeEmbed';
 import { ChevronDown, ChevronUp } from 'lucide-react';
-import AttackCoruscantFleetTeam1 from '../../Coruscant/DataCoruscant/SelectionTeam/TeamFleet/AttackCoruscantFleetTeam1';
 import DefenseLothalFleetTeam1 from '../../Lothal/Data Lothal/Team Lothal/Team FLEET/DefenseLothalFleetTeam1';
 import AttackScarifFleetTeam1 from './Team Scarif/Team FLEET/AttackScarifFleetTeam1';
 
