@@ -269,6 +269,12 @@
   { "src": "/Personnage/120px-Unit-NPC-Cartel_Bruiser-portrait.png", "alt": "Cartel-bruiser", "name": "Cartel Bruiser" },
   { "type": "separator", "label": "--------------------------------------------------------------------------------------------------- CARTEL" },
 
+
+
+  { "type": "section", "label": "VEHICULE" },
+  { "src": "/Personnage/atst_pirate.png", "alt": "Atst", "name": "ATST" },
+  { "type": "separator", "label": "----------------------------------------------------------------------------------------------------- VEHICULE" },
+
   
 
   { "type": "section", "label": "VAISSEAU LUMINEUX" },
@@ -283,7 +289,6 @@
   { "src": "/Personnage/jedi_consular's_starfighter.png", "alt": "Jedi-stellaire", "name": "Chasseur stellaire du jedi consulaire" },
   { "src": "/Personnage/BTL-B_Y-wing_Starfighter.png", "alt": "BTL", "name": "Chasseur Y-wing BTL-B" },
   { "src": "/Personnage/clone_sergeant's_arc-170.png", "alt": "Clone-170", "name": "ARC-170 du Sergent clone" },
-  { "src": "/Personnage/resistance_x-wing.png", "alt": "X-wing-resistance", "name": "X-wing de la résistance" },
   { "src": "/Personnage/umbaran_starfighter.png", "alt": "umbaran", "name": "Chasseur umbarien" },
   { "src": "/Personnage/plo_koon's_jedi_starfighter.png", "alt": "Chasseur-plo", "name": "Chasseur stellaire Jedi de Plo Koon" },
 
@@ -334,6 +339,12 @@
   { "type": "section", "label": "VAISSEAU DARKSIDE CHASSEUR DE PRIME" },
   { "src": "/Personnage/razor_crest.png", "alt": "Razor", "name": "Razor Crest" },
   { "src": "/Personnage/xanadu_blood.png", "alt": "Xanadu", "name": "Xanadu Blood" },
+
+
+  { "type": "section", "label": "SEPARATISTE" },
+  { "src": "/Personnage/malevolence.png", "alt": "Malveillant", "name": "Malveillant" },
+  { "src": "/Personnage/hyena_bomber.png", "alt": "hyena", "name": "Droïde bombardier de classe Hyène" },
+  { "src": "/Personnage/vulture_droid.png", "alt": "vautour", "name": "Droïde-vautour" },
 
   { "type": "separator", "label": "------------------------------------------------------------------------------------------ VAISSEAU DARKSIDE" }
 ]

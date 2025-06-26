@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
-import AttackRokFleet from '../RingOfKafrene/Data ROK/AttackRokFleet';
-import AttackScarifNordEst from '../Scarif/Data Scarif/AttackScarifNordEst';
 import AttackScarifNordOuest from '../Scarif/Data Scarif/AttackScarifNordOuest';
 import AttackScarifSudOuest from '../Scarif/Data Scarif/AttackScarifSudOuest';
 import AttackScarifSudEst from '../Scarif/Data Scarif/AttackScarifSudEst';
 import ScarifPlatoon from '../Scarif/Data Scarif/PlatoonScarif';
 import MissionImagesZeffo from './MissionImageZeffo';
 import StarRequireZeffo from './Data Zeffo/StarRequireZeffo';
+import AttackZeffoFleet from './Data Zeffo/AttackZeffoFleet';
+import AttackZeffoNord from './Data Zeffo/AttackZeffonord';
 
 const Scarif: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -45,11 +45,11 @@ const Scarif: React.FC = () => {
           <StarRequireZeffo />
         </div>
         <div className="p-4 md:p-8 lg:p-12 mb-8">
-          <AttackScarifNordEst />
+          <AttackZeffoNord />
           <AttackScarifNordOuest />
           <AttackScarifSudOuest />
           <AttackScarifSudEst />
-          <AttackRokFleet />
+          <AttackZeffoFleet />
           <ScarifPlatoon />
         </div>
 
