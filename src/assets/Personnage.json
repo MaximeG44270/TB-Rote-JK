@@ -22,6 +22,8 @@
   { "src": "/Personnage/mace_windu.png", "alt": "Mace-windu", "name": "Mace windu" },
   { "src": "/Personnage/ima-gun_di.png", "alt": "Ima-gun", "name": "Ima-Gun Di" },
   { "src": "/Personnage/coruscant_underworld_police.png", "alt": "Police", "name": "Polie de la pègre de Coruscant" },
+  { "src": "/Personnage/jedi_guardian_02.png", "alt": "Marseph", "name": "Padawan Marseph" },
+  { "src": "/public/Personnage/jedi_vanguard_01.png", "alt": "Chiata", "name": "General Chiata" },
   { "type": "separator", "label": "---------------------------------------------------------------------------------------  REPUBLIQUE GALACTIQUE" },
   
   
@@ -160,6 +162,9 @@
   { "src": "/Personnage/l3-37.png", "alt": "L3-37", "name": "L3-37" },
   { "src": "/Personnage/t3-m4.png", "alt": "T3-M4", "name": "T3-M4" },
   { "src": "/Personnage/imperial_probe_droid.png", "alt": "Sonde-imp", "name": "Droïde Sonde Impérial" },
+  { "src": "/Personnage/MashDatabank-Survivor.webp", "alt": "haxion-cap", "name": "Capitaine de Droïde de la Couveuse Haxion" },
+  { "src": "/Personnage/Daschorb-JFODatabank.webp", "alt": "haxion", "name": "Droïde de Prime de la Couveuse Haxion" },
+  { "src": "/Personnage/Tomb_Guardian.webp", "alt": "Tomb-guardian", "name": "Gardien du Tombeau d'Eilram" },
   { "type": "separator", "label": "----------------------------------------------------------------------------------------------------- DROID" },
 
 
@@ -183,6 +188,8 @@
   { "src": "/Personnage/sanastarros.png", "alt": "Sana", "name": "Sana Starros" },
   { "src": "/Personnage/boushh.png", "alt": "Boushh", "name": "Boushh (Leia Organa)" },
   { "src": "/Personnage/skiff_lando.png", "alt": "skiff-lando", "name": "Garde d'Esquif (Lando Calrissian)" },
+  { "src": "/Personnage/guildbountyhunter_01.png", "alt": "bounty-a", "name": "Bounty" },
+  { "src": "/public/Personnage/guildbountyhunter_02.png", "alt": "bounty-b", "name": "Bounty" },
   { "type": "separator", "label": "----------------------------------------------------------------------------------------- CHASSEUR DE PRIME" },
   
   
