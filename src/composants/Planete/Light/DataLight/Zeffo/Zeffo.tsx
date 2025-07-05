@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
-import ScarifPlatoon from '../Scarif/Data Scarif/PlatoonScarif';
 import MissionImagesZeffo from './MissionImageZeffo';
 import StarRequireZeffo from './Data Zeffo/StarRequireZeffo';
 import AttackZeffoFleet from './Data Zeffo/AttackZeffoFleet';
@@ -9,6 +8,7 @@ import AttackZeffoNord from './Data Zeffo/AttackZeffonord';
 import AttackZeffoCentre from './Data Zeffo/AttackZeffoCentre';
 import AttackZeffoSud from './Data Zeffo/AttackZeffoSud';
 import AttackZeffoMission from './Data Zeffo/AttackZeffoMission';
+import ZeffoPlatoon from './Data Zeffo/ZeffoPlatoon';
 
 const Scarif: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -50,7 +50,7 @@ const Scarif: React.FC = () => {
           <AttackZeffoSud />
           <AttackZeffoMission />
           <AttackZeffoFleet />
-          <ScarifPlatoon />
+          <ZeffoPlatoon />
         </div>
 
         {/* ------------------------------------------- Bouton Scroll to Top ------------------------------------------- */}

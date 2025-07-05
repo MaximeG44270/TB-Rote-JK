@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import YouTubeEmbed from '../../../../YouTubeEmbed';
-import DefenseZeffoSudVague2 from './Team Zeffo/Team Sud/DefenseZeffoSudVague2';
 import AttackZeffoMissionTeam1 from './Team Zeffo/Team Mission/AttackZeffoMissionTeam1';
 import DefenseZeffoCentreVague2 from './Team Zeffo/Team Centre/DefenseZeffoCentreVague2';
 import DefenseZeffoMissionVague2 from './Team Zeffo/Team Mission/DefenseZeffoMissionVague2';

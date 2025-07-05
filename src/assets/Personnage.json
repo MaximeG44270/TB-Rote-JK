@@ -23,7 +23,8 @@
   { "src": "/Personnage/ima-gun_di.png", "alt": "Ima-gun", "name": "Ima-Gun Di" },
   { "src": "/Personnage/coruscant_underworld_police.png", "alt": "Police", "name": "Polie de la pègre de Coruscant" },
   { "src": "/Personnage/jedi_guardian_02.png", "alt": "Marseph", "name": "Padawan Marseph" },
-  { "src": "/public/Personnage/jedi_vanguard_01.png", "alt": "Chiata", "name": "General Chiata" },
+  { "src": "/Personnage/jedi_vanguard_01.png", "alt": "Chiata", "name": "General Chiata" },
+  { "src": "/Personnage/jedi_knight_guardian.png", "alt": "JKG", "name": "Chevalier Jedi Gardien" },
   { "type": "separator", "label": "---------------------------------------------------------------------------------------  REPUBLIQUE GALACTIQUE" },
   
   
@@ -99,6 +100,7 @@
   { "src": "/Personnage/hoth_rebel_solider.png", "alt": "soldat-hoth", "name": "Soldat rebelle de Hoth" },
   { "src": "/Personnage/saw_gerrera.png", "alt": "Saw-gerrera", "name": "Saw Gerrera" },
   { "src": "/Personnage/lando_calrissian.png", "alt": "Lando-cal", "name": "Lando Calrissian" },
+  { "src": "/Personnage/luke_skywalker_(farmboy).png", "alt": "Farmboy", "name": "Luke Skywalker (fermier)" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------------ REBELLE" },
 
 
@@ -118,6 +120,7 @@
   { "src": "/Personnage/jedi_knight_revan.png", "alt": "JKR", "name": "Chevalier Jedi Revan" },
   { "src": "/Personnage/jolee_bindo.png", "alt": "Jolee", "name": "Jolee Bindo" },
   { "src": "/Personnage/juhani.png", "alt": "Juhani", "name": "Juhani" },
+  { "src": "/Personnage/mission_vao.png", "alt": "Vao", "name": "Mission Vao" },
   { "src": "/Personnage/bastila_shan.png", "alt": "Bastila-light", "name": "Bastila Shan" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------ ANCIENNE REPUBLIQUE" },
 
@@ -221,6 +224,7 @@
   { "src": "/Personnage/teebo.png", "alt": "Teebo", "name": "Teebo" },
   { "src": "/Personnage/ewok_scout.png", "alt": "eclaireur-ewok", "name": "Éclaireur Ewok" },
   { "src": "/Personnage/ewok_wicket.png", "alt": "Wicket", "name": "Wicket" },
+  { "src": "/Personnage/chief_chirpa.png", "alt": "Chirpa", "name": "Chef Chirpa" },
   { "type": "separator", "label": "-------------------------------------------------------------------------------------------------- EWOKS" },
   
   
@@ -230,6 +234,7 @@
   { "src": "/Personnage/young_han_solo.png", "alt": "Young-solo", "name": "Han Solo jeune" },
   { "src": "/Personnage/enfys_nest.png", "alt": "Enfys", "name": "Enfys Nest" },
   { "src": "/Personnage/dash_rendar.png", "alt": "Dash-rendar", "name": "Dash Rendar" },
+  { "src": "/Personnage/qi'ra.png", "alt": "QI-RA", "name": "Qi'ra" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------- VAURIEN" },
 
 
@@ -317,7 +322,9 @@
 
   { "type": "section", "label": "VAISSEAU LUMINEUX RESISTANCE" },
   { "src": "/Personnage/poe_dameron's_x-wing.png", "alt": "X-wing-poe", "name": "X-wing de Poe Dameron" },
-  { "src": "/public/Personnage/resistance_x-wing.png", "alt": "X-wing-resistance", "name": "X-wing de la Résistance" },
+  { "src": "/Personnage/resistance_x-wing.png", "alt": "X-wing-resistance", "name": "X-wing de la Résistance" },
+  { "src": "/Personnage/mg100.png", "alt": "MG100", "name": "Forteresse Stellaire MG-100 SF-17" },
+  { "src": "/Personnage/raddus.png", "alt": "Raddus", "name": "Raddus" },
 
 
   { "type": "section", "label": "VAISSEAU LUMINEUX ANCIENNE REPUBLIQUE" },
