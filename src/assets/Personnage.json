@@ -192,7 +192,7 @@
   { "src": "/Personnage/boushh.png", "alt": "Boushh", "name": "Boushh (Leia Organa)" },
   { "src": "/Personnage/skiff_lando.png", "alt": "skiff-lando", "name": "Garde d'Esquif (Lando Calrissian)" },
   { "src": "/Personnage/guildbountyhunter_01.png", "alt": "bounty-a", "name": "Bounty" },
-  { "src": "/public/Personnage/guildbountyhunter_02.png", "alt": "bounty-b", "name": "Bounty" },
+  { "src": "/Personnage/guildbountyhunter_02.png", "alt": "bounty-b", "name": "Bounty" },
   { "type": "separator", "label": "----------------------------------------------------------------------------------------- CHASSEUR DE PRIME" },
   
   
