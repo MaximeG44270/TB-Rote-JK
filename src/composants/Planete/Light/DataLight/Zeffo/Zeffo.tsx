@@ -32,7 +32,7 @@ const Scarif: React.FC = () => {
       <div className="relative flex flex-col bg-gray-900 max-w-full overflow-hidden text-white">
         {/* ------------------------------------------- Image principale ------------------------------------------- */}
         <img 
-          src="/public/Planet-main-mobile/Light/Bonus-Zeffo.webp"
+          src="/Planet-main-mobile/Light/Bonus-Zeffo.webp"
           alt="Zeffo" 
           className="w-10/12 xl:w-1/2 rounded-lg mt-8 mx-auto"
         />
