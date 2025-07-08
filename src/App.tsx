@@ -11,6 +11,13 @@ import Zeffo from './composants/Planete/Light/DataLight/Zeffo/Zeffo';
 import Bracca from './composants/Planete/Light/DataLight/Bracca/Bracca';
 import Lothal from './composants/Planete/Light/DataLight/Lothal/Lothal';
 import RingOfKafrene from './composants/Planete/Light/DataLight/RingOfKafrene/RingOfKafrene';
+import Corellia from './composants/Planete/Mixte/DataMixte/Corellia/Corellia';
+import Felucia from './composants/Planete/Mixte/DataMixte/Felucia/Felucia';
+import Tatooine from './composants/Planete/Mixte/DataMixte/Tatooine/Tatooine';
+import Kessel from './composants/Planete/Mixte/DataMixte/Kessel/Kessel';
+import Vandor from './composants/Planete/Mixte/DataMixte/Vandor/Vandor';
+import Hoth from './composants/Planete/Mixte/DataMixte/Hoth/Hoth';
+import Mandalor from './composants/Planete/Mixte/DataMixte/Mandalor/Mandalor';
 
 function App() {
   return (
@@ -28,6 +35,13 @@ function App() {
         <Route path="/planet/5-ring-of-kafrene" element={<RingOfKafrene />} />
         <Route path="/planet/6-scarif" element={<Scarif />} />
         <Route path="/planet/bonus-zeffo" element={<Zeffo />} />
+        <Route path="/planet/1-Corellia" element={<Corellia />} />
+        <Route path="/planet/2-Felucia" element={<Felucia />} />
+        <Route path="/planet/3-Tatooine" element={<Tatooine />} />
+        <Route path="/planet/4-Kessel" element={<Kessel />} />
+        <Route path="/planet/5-Vandor" element={<Vandor />} />
+        <Route path="/planet/6-Hoth" element={<Hoth />} />
+        <Route path="/planet/bonus-mandalor" element={<Mandalor />} />
       </Routes>
     </div>
   );
