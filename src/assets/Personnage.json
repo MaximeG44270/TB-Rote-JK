@@ -372,6 +372,10 @@
   { "type": "section", "label": "VAISSEAU DARKSIDE CHASSEUR DE PRIME" },
   { "src": "/Personnage/razor_crest.png", "alt": "Razor", "name": "Razor Crest" },
   { "src": "/Personnage/xanadu_blood.png", "alt": "Xanadu", "name": "Xanadu Blood" },
+  { "src": "/Personnage/executor.png", "alt": "Exe", "name": "Executor" },
+  { "src": "/Personnage/hound's_tooth.png", "alt": "Hound", "name": "Dent du Molosse" },
+  { "src": "/Personnage/slave_i.png", "alt": "Slave", "name": "Slave I" },
+  { "src": "/Personnage/ig_2000.png", "alt": "ig-2000", "name": "IG-2000" },
 
 
   { "type": "section", "label": "SEPARATISTE" },

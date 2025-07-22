@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowUp } from 'lucide-react';
 import Header from '../../../Header2/Header';
-import AttackCoruscantFleet from '../../../Light/DataLight/Coruscant/DataCoruscant/AttackCoruscantFleet';
 import CoruscantPlatoon from '../../../Light/DataLight/Coruscant/DataCoruscant/CoruscantPlatoon';
 import MissionImagesCorellia from './MissionImagesCorellia';
 import StarRequireCorellia from './Data Corellia/StarRequireCorellia';
@@ -9,6 +8,7 @@ import AttackCorelliaEst from './Data Corellia/AttackCorelliaEst';
 import AttackCorelliaNord from './Data Corellia/AttackCorelliaNord';
 import AttackCorelliaOuest from './Data Corellia/AttackCorelliaOuest';
 import AttackCorelliaMission from './Data Corellia/AttackCorelliaMission';
+import AttackCorelliaFleet from './Data Corellia/AttackCorelliaFleet';
 
 const Corellia: React.FC = () => {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -49,7 +49,7 @@ const Corellia: React.FC = () => {
           <AttackCorelliaNord/>
           <AttackCorelliaOuest />
           <AttackCorelliaMission />
-          <AttackCoruscantFleet />
+          <AttackCorelliaFleet />
           <CoruscantPlatoon />
         </div>
 
