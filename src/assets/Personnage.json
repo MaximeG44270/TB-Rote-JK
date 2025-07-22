@@ -59,6 +59,8 @@
   { "src": "/Personnage/shoretrooper.png", "alt": "Shore-trooper", "name": "Shoretrooper" },
   { "src": "/Personnage/director_krennic.png", "alt": "Krennic", "name": "Directeur Krennic" },
   { "src": "/Personnage/darth_vader.png", "alt": "Dark-vador", "name": "Dark Vador" },
+  { "src": "/Personnage/general_veers.png", "alt": "Gene-veers", "name": "Général Veers" },
+  { "src": "/Personnage/colonel_starck.png", "alt": "Colo-starck", "name": "Colonel Starck" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------------  EMPIRE" },
 
 
@@ -177,6 +179,7 @@
   { "src": "/Personnage/b2_super_battle_droid.png", "alt": "B2", "name": "Super droïde de combat B2" },
   { "src": "/Personnage/ig100_magnaguard.png", "alt": "MagnaGarde", "name": "MagnaGarde IG-100" },
   { "src": "/Personnage/b1_battle_droid.png", "alt": "B1", "name": "Droïde de combat B1" },
+  { "src": "/Personnage/ig-11.png", "alt": "ig-11", "name": "IG-11" },
   { "type": "separator", "label": "----------------------------------------------------------------------------------------------------- DROID" },
 
 
