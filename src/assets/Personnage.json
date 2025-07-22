@@ -58,6 +58,7 @@
   { "src": "/Personnage/tie_fighter_pilot.png", "alt": "tie-pilote", "name": "Pilote de chasseur TIE" },
   { "src": "/Personnage/shoretrooper.png", "alt": "Shore-trooper", "name": "Shoretrooper" },
   { "src": "/Personnage/director_krennic.png", "alt": "Krennic", "name": "Directeur Krennic" },
+  { "src": "/Personnage/darth_vader.png", "alt": "Dark-vador", "name": "Dark Vador" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------------  EMPIRE" },
 
 
@@ -112,6 +113,7 @@
   { "src": "/Personnage/gl_rey.png", "alt": "GL-rey", "name": "Rey" },
   { "src": "/Personnage/gl_vader.png", "alt": "LV", "name": "Seigneur Vador" },
   { "src": "/Personnage/gl-ahsoka.webp", "alt": "Gl-ahsoka", "name": "Ahsoka Tano" },
+  { "src": "/Personnage/gl_jabba.png", "alt": "Jabba", "name": "Jabba le Hutt" },
   { "type": "separator", "label": "---------------------------------------------------------------------------------------------  GALACTIK LEGEND" },
 
 
@@ -168,6 +170,13 @@
   { "src": "/Personnage/MashDatabank-Survivor.webp", "alt": "haxion-cap", "name": "Capitaine de Droïde de la Couveuse Haxion" },
   { "src": "/Personnage/Daschorb-JFODatabank.webp", "alt": "haxion", "name": "Droïde de Prime de la Couveuse Haxion" },
   { "src": "/Personnage/Tomb_Guardian.webp", "alt": "Tomb-guardian", "name": "Gardien du Tombeau d'Eilram" },
+  { "src": "/Personnage/doctoraphra.png", "alt": "Aphra", "name": "Docteur Aphra" },
+  { "src": "/Personnage/bt1.png", "alt": "Bt-1", "name": "BT-1" },
+  { "src": "/Personnage/tex.charui_triplezero.webp", "alt": "0-0-0", "name": "0-0-0" },
+  { "src": "/Personnage/ig-88.png", "alt": "ig-88", "name": "IG-88" },
+  { "src": "/Personnage/b2_super_battle_droid.png", "alt": "B2", "name": "Super droïde de combat B2" },
+  { "src": "/Personnage/ig100_magnaguard.png", "alt": "MagnaGarde", "name": "MagnaGarde IG-100" },
+  { "src": "/Personnage/b1_battle_droid.png", "alt": "B1", "name": "Droïde de combat B1" },
   { "type": "separator", "label": "----------------------------------------------------------------------------------------------------- DROID" },
 
 
@@ -193,6 +202,11 @@
   { "src": "/Personnage/skiff_lando.png", "alt": "skiff-lando", "name": "Garde d'Esquif (Lando Calrissian)" },
   { "src": "/Personnage/guildbountyhunter_01.png", "alt": "bounty-a", "name": "Bounty" },
   { "src": "/Personnage/guildbountyhunter_02.png", "alt": "bounty-b", "name": "Bounty" },
+  { "src": "/Personnage/boba_fett.png", "alt": "boba", "name": "Boba Fett" },
+  { "src": "/Personnage/cad_bane.png", "alt": "cad-bane", "name": "Cad Bane" },
+  { "src": "/Personnage/greedo.png", "alt": "Greedo", "name": "Greedo" },
+  { "src": "/Personnage/embo.png", "alt": "Embo", "name": "Embo" },
+  { "src": "/Personnage/gamorrean_guard.png", "alt": "Gamorrean", "name": "Garde Gamorréen" },
   { "type": "separator", "label": "----------------------------------------------------------------------------------------- CHASSEUR DE PRIME" },
   
   
@@ -247,6 +261,8 @@
   { "src": "/Personnage/vandor_chewbacca.png", "alt": "Vandor-chew", "name": "Chewbacca Vandor" },
   { "src": "/Personnage/tarfful.png", "alt": "Tarfful", "name": "Tarfful" },
   { "src": "/Personnage/clone_wars_chewbacca.png", "alt": "Clone-chew", "name": "Chewbacca Guerre des Clones" },
+  { "src": "/Personnage/tarfful.png", "alt": "Tarfful", "name": "Tarfful" },
+  { "src": "/Personnage/krrsantan.png", "alt": "Krrsantan", "name": "Krrsantan" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------- WOOKIEE" },
   
   
