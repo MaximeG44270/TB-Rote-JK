@@ -61,12 +61,19 @@
   { "src": "/Personnage/darth_vader.png", "alt": "Dark-vador", "name": "Dark Vador" },
   { "src": "/Personnage/general_veers.png", "alt": "Gene-veers", "name": "Général Veers" },
   { "src": "/Personnage/colonel_starck.png", "alt": "Colo-starck", "name": "Colonel Starck" },
+  { "src": "/Personnage/admiral_piett.png", "alt": "Piett", "name": "Amiral Piett" },
+  { "src": "/Personnage/emperor_palpatine.png", "alt": "Palpa", "name": "Empreur Palpatine" },
   { "type": "separator", "label": "------------------------------------------------------------------------------------------------------  EMPIRE" },
 
 
   
   { "type": "section", "label": "SITH" },
   { "src": "/Personnage/darth_sidious.png", "alt": "Darth-sidious", "name": "Dark Sidious" },
+  { "src": "/Personnage/darth_traya.png", "alt": "Traya", "name": "Dark Traya" },
+  { "src": "/Personnage/darth_revan.png", "alt": "DR", "name": "Dark Revan" },
+  { "src": "/Personnage/darth_malgus.png", "alt": "DM", "name": "Dark Malgus" },
+  { "src": "/Personnage/darth_maul.png", "alt": "Darth-maul", "name": "Dark Maul" },
+  { "src": "/Personnage/darth_sion.png", "alt": "Sion", "name": "Dark Sion" },
   { "type": "separator", "label": "--------------------------------------------------------------------------------------------------------  SITH" },
 
 
@@ -161,6 +168,12 @@
   { "src": "/Personnage/cere_junda.png", "alt": "Cere", "name": "Cere Junda" },
   { "src": "/Personnage/jedi_cal.png", "alt": "JKCK", "name": "Chevalier Jedi Cal Kestis" },
   { "type": "separator", "label": "------------------------------------------------------------------------- UTILISATEUR DE LA FORCE NON ALIGNE" },
+
+
+
+  { "type": "section", "label": "SOEUR DE LA NUIT" },
+  { "src": "/Personnage/talia.png", "alt": "Talia", "name": "Talia" },
+  { "type": "separator", "label": "------------------------------------------------------------------------- SOEUR DE LA NUIT" },
   
 
 
@@ -210,6 +223,8 @@
   { "src": "/Personnage/greedo.png", "alt": "Greedo", "name": "Greedo" },
   { "src": "/Personnage/embo.png", "alt": "Embo", "name": "Embo" },
   { "src": "/Personnage/gamorrean_guard.png", "alt": "Gamorrean", "name": "Garde Gamorréen" },
+  { "src": "/Personnage/boba_soj.png", "alt": "boba-heritie", "name": "Boba Fett, héritier de Jango" },
+  { "src": "/Personnage/bossk.png", "alt": "bossk", "name": "Bossk" },
   { "type": "separator", "label": "----------------------------------------------------------------------------------------- CHASSEUR DE PRIME" },
   
   
@@ -242,6 +257,7 @@
   { "src": "/Personnage/ewok_scout.png", "alt": "eclaireur-ewok", "name": "Éclaireur Ewok" },
   { "src": "/Personnage/ewok_wicket.png", "alt": "Wicket", "name": "Wicket" },
   { "src": "/Personnage/chief_chirpa.png", "alt": "Chirpa", "name": "Chef Chirpa" },
+  { "src": "/Personnage/paploo.png", "alt": "Paploo", "name": "Paploo" },
   { "type": "separator", "label": "-------------------------------------------------------------------------------------------------- EWOKS" },
   
   
@@ -277,6 +293,12 @@
 
 
 
+  { "type": "section", "label": "GEONOSIENS" },
+  { "src": "/Personnage/geonosian_brood_alpha.png", "alt": "Alpha", "name": "Alpha Géonosien" },
+  { "type": "separator", "label": "--------------------------------------------------------------------------------------------- GEONOSIENS" },
+
+
+
   { "type": "section", "label": "PHOENIX" },
   { "src": "/Personnage/kanan_jarrus.png", "alt": "Kanan", "name": "Kanan Jarrus" },
   { "src": "/Personnage/ezra_bridger.png", "alt": "Ez-bridger", "name": "Ezra Bridger" },
@@ -289,7 +311,20 @@
 
   { "type": "section", "label": "JAWA" },
   { "src": "/Personnage/chief_nebit.png", "alt": "Nebit", "name": "Chef Nebit" },
+  { "src": "/Personnage/jawa_engineer.png", "alt": "Jawa-engineer", "name": "Ingénieur Jawa" },
   { "type": "separator", "label": "---------------------------------------------------------------------------------------------------- JAWA" },
+
+
+
+  { "type": "section", "label": "PREMIER ORDRE" },
+  { "src": "/Personnage/sith_trooper.png", "alt": "Trooper-sith", "name": "Soldat Sith" },
+  { "type": "separator", "label": "---------------------------------------------------------------------------------------------------- PREMIER ORDRE" },
+
+
+
+  { "type": "section", "label": "SEPARATISTE" },
+  { "src": "/Personnage/wat_tambor.png", "alt": "Wat", "name": "Wat Tambor" },
+  { "type": "separator", "label": "---------------------------------------------------------------------------------------------------- SEPARATISTE" },
 
 
 
@@ -383,5 +418,11 @@
   { "src": "/Personnage/hyena_bomber.png", "alt": "hyena", "name": "Droïde bombardier de classe Hyène" },
   { "src": "/Personnage/vulture_droid.png", "alt": "vautour", "name": "Droïde-vautour" },
 
-  { "type": "separator", "label": "------------------------------------------------------------------------------------------ VAISSEAU DARKSIDE" }
+
+
+  { "type": "section", "label": "PREMIER ORDRE" },
+  { "src": "/Personnage/kylo_ren's_command_shuttle.png", "alt": "Navette-kylo", "name": "Navette de commandement de Kylo Ren" },
+  { "src": "/Personnage/tie_silencer.png", "alt": "Tie-silencer", "name": "TIE silencer" },
+
+  { "type": "separator", "label": "------------------------------------------------------------------------------------------ PREMIER ORDRE" }
 ]
